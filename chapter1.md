@@ -1,4 +1,4 @@
 # 用户登录
 
-GitBook allows you to organize your book into chapters, each chapter is stored in a separate file like this one.
+> 登录帐号、密码需要向产品经理申请
 
