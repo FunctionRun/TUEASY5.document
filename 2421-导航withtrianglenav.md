@@ -29,7 +29,7 @@
 
 <table>
 <tr>
-<td>文本设置</td>
+<td rowspan="2">文本设置</td>
 <td>文本颜色设置（标1）</td>
 </tr>
 <tr>
