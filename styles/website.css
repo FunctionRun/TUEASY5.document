@@ -1,5 +1,14 @@
 /* CSS for website */
-td{
-width:300px;
-height:100px;
+.table{
+border:solid 1px black;
+width:100px;
+}
+ 
+.tr{
+width:100%;
+}
+.td{
+display:inline-table;
+border:solid 1px black;
+width:40%;
 }
