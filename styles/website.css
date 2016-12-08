@@ -1,15 +1,15 @@
 /* CSS for website */
 
 table.full {width:100%;}
-.ADoc_table { border-collapse: collapse; margin-bottom:15px; }
+table { border-collapse: collapse; margin-bottom:15px; }
 
-.ADoc_table th, .ADoc_table td {
+table th, table td {
     border:1px solid rgb(23,53,81);
     padding: 3px;
     color:#222;
 }
 
-.ADoc_table th {
+table th {
     border-bottom:2px solid rgb(23,53,81);
     background:rgb(37,78,117);
     color:#fff;
