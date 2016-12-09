@@ -117,19 +117,7 @@
 | series\[0\].backgroundPathStyle.emphasis | Object | √ |  |  | 导航项**选中**状态下的背景斜线样式 |
 | series\[0\].backgroundPathStyle.emphasis.stroke | String | √ | \#ffe3c6 | 支持CSS3中颜色的值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 导航项**选中**状态下的背景斜线的颜色 |
 | series\[0\].backgroundPathStyle.emphasis.opacity | Number | √ | 1 | 0.0-1.0 | 导航项**选中**状态下的背景斜线的透明度 |
-| series\[0\].backgroundStyle | Object | √ |  |  | 导航项的背景样式 |
-| series\[0\].backgroundStyle.normal | Object | √ |  |  | 导航项**未选中**状态下的背景样式 |
-| series\[0\].backgroundStyle.normal.backgroundColor | String | √ | rgba\(239, 241, 243, 1.0\) | 支持CSS3中颜色的值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 导航项**未选中**状态下的背景颜色 |
-| series\[0\].backgroundStyle.normal.backgroundSize | String | √ | cover | 支持CSS3中background-size的参数值 | 导航项**未选中**状态下的背景图像尺寸 |
-| series\[0\].backgroundStyle.emphasis | Object | √ |  |  | 导航项**未选中**状态下的背景样式 |
-| series\[0\].backgroundStyle.emphasis.backgroundColor | String | √ | rgba\(102, 118, 136, 1.0\) | 支持CSS3中颜色的值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 导航项**选中**状态下的背景颜色 |
-| series\[0\].backgroundStyle.emphasis.backgroundSize | String | √ | cover | 支持CSS3中background-size的参数值 | 导航项**选中**状态下的背景图像尺寸 |
-| series\[0\].triangleStyle | Object | √ |  |  | 导航项的三角标志样式 |
-| series\[0\].triangleStyle.normal | Object | √ | { ’border‘: 'none' } |  | 导航项在**未选中**状态下不显示三角标志，不可修改 |
-| series\[0\].triangleStyle.emphasis | Object | √ |  |  | 导航项在**选中**状态下的三角标志样式 |
-| series\[0\].triangleStyle.emphasis.borderWidth | String | √ | 10px |  | 等腰直角三角形的直角边长，决定三角标志的大小 |
-| series\[0\].triangleStyle.emphasis.borderTopColor | String | √ | \#ffa84e | 支持CSS3中颜色的值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 三角标志的上三角颜色 |
-| series\[0\].triangleStyle.emphasis.borderRightColor | String | √ | \#ffa84e | 支持CSS3中颜色的值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 三角标志的下三角颜色 |
+| series\[0\].bothSidesStyle | Object | √ |  |  | 导航项的左右边框样式 |
 | series\[0\].name | String |  |  |  | 导航栏绑定数据时的数据字段 |
 | itemGap | Number | √ | 24 |  | 导航项之间的间隔 |
 
