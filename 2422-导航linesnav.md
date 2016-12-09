@@ -113,7 +113,7 @@
 | series\[0\].backgroundPathStyle | Object | √ |  |  | 导航项的背景斜线样式 |
 | series\[0\].backgroundPathStyle.normal | Object | √ |  |  | 导航项**未选中**状态下的背景斜线样式 |
 | series\[0\].backgroundPathStyle.normal.stroke | String | √ | \#ffe3c6 | 支持CSS3中颜色的值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 导航项**未选中**状态下的背景斜线的颜色 |
-| series\[0\].backgroundPathStyle.normal. | String | √ | solid | 支持CSS3中boder-style的参数值 | 导航项的边框线的样式 |
+| series\[0\].backgroundPathStyle.normal.opacity | Number | √ | 0 | 0.0-1.0 | 导航项**未选中**状态下的背景斜线的透明度 |
 | series\[0\].borderStyle.normal.borderColor | String | √ | \#fff | 支持CSS3中颜色的值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 导航项的边框线的样式 |
 | series\[0\].borderStyle.normal.borderRadius | String | √ | 1px |  | 导航项的边框圆角角度 |
 | series\[0\].backgroundStyle | Object | √ |  |  | 导航项的背景样式 |
