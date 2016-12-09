@@ -1,3 +1,3 @@
-# 导航\_linesNav ![](/assets/withTriangleNav.png)
+# 导航\_linesNav ![](/assets/linesNav.png)
 
 ---
