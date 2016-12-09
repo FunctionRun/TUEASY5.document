@@ -16,7 +16,7 @@
     'maxNumInOneLine': 100,
     'animation': {
         'showAnimation': true,
-        'animationType': 'lattice',
+        'animationType': 'withLines',
         'animationDelay': 1000
     },
     'orient': 'horizontal',
