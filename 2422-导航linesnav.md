@@ -114,9 +114,9 @@
 | series\[0\].backgroundPathStyle.normal | Object | √ |  |  | 导航项**未选中**状态下的背景斜线样式 |
 | series\[0\].backgroundPathStyle.normal.stroke | String | √ | \#ffe3c6 | 支持CSS3中颜色的值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 导航项**未选中**状态下的背景斜线的颜色 |
 | series\[0\].backgroundPathStyle.normal.opacity | Number | √ | 0 | 0.0-1.0 | 导航项**未选中**状态下的背景斜线的透明度 |
-| series\[0\].backgroundPathStyle.normal | Object | √ |  |  | 导航项**未选中**状态下的背景斜线样式 |
-| series\[0\].backgroundPathStyle.normal.stroke | String | √ | \#ffe3c6 | 支持CSS3中颜色的值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 导航项**未选中**状态下的背景斜线的颜色 |
-| series\[0\].backgroundPathStyle.normal.opacity | Number | √ | 0 | 0.0-1.0 | 导航项**未选中**状态下的背景斜线的透明度 |
+| series\[0\].backgroundPathStyle.emphasis | Object | √ |  |  | 导航项**选中**状态下的背景斜线样式 |
+| series\[0\].backgroundPathStyle.emphasis.stroke | String | √ | \#ffe3c6 | 支持CSS3中颜色的值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 导航项**选中**状态下的背景斜线的颜色 |
+| series\[0\].backgroundPathStyle.emphasis.opacity | Number | √ | 1 | 0.0-1.0 | 导航项**选中**状态下的背景斜线的透明度 |
 | series\[0\].backgroundStyle | Object | √ |  |  | 导航项的背景样式 |
 | series\[0\].backgroundStyle.normal | Object | √ |  |  | 导航项**未选中**状态下的背景样式 |
 | series\[0\].backgroundStyle.normal.backgroundColor | String | √ | rgba\(239, 241, 243, 1.0\) | 支持CSS3中颜色的值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 导航项**未选中**状态下的背景颜色 |
