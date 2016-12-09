@@ -119,9 +119,9 @@
 | series\[0\].backgroundPathStyle.emphasis.opacity | Number | √ | 1 | 0.0-1.0 | 导航项**选中**状态下的背景斜线的透明度 |
 | series\[0\].bothSidesStyle | Object | √ |  |  | 导航项的左右边框样式 |
 | series\[0\].bothSidesStyle.normal | Object | √ |  |  | 导航框**未选中**状态的左右边框样式 |
-| series\[0\].bothSidesStyle.normal.borderColor | String | √ | \#ffd3a6 | 支持CSS3中颜色的值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 导航框未选中状态的左右边框颜色 |
-| series\[0\].bothSidesStyle.emphasis| Object | √ |  |  | 导航框**选中**状态的左右边框样式 |
-| series\[0\].bothSidesStyle.emphasis.borderColor | String | √ | \#f6eb3f| 支持CSS3中颜色的值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 导航框选中状态的左右边框颜色 |
+| series\[0\].bothSidesStyle.normal.borderColor | String | √ | \#ffd3a6 | 支持CSS3中颜色的值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 导航框**未选中**状态的左右边框颜色 |
+| series\[0\].bothSidesStyle.emphasis | Object | √ |  |  | 导航框**选中**状态的左右边框样式 |
+| series\[0\].bothSidesStyle.emphasis.borderColor | String | √ | \#f6eb3f | 支持CSS3中颜色的值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 导航框**选中**状态的左右边框颜色 |
 | series\[0\].name | String |  |  |  | 导航栏绑定数据时的数据字段 |
 | itemGap | Number | √ | 24 |  | 导航项之间的间隔 |
 
