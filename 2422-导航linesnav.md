@@ -68,12 +68,10 @@
             },
             'bothSidesStyle': {
                 'normal': {
-                    'borderColor': '#ffd3a6',
-                    'background': '#ffd3a6'
+                    'borderColor': '#ffd3a6'
                 },
                 'emphasis': {
-                    'borderColor': '#f6eb3f',
-                    'background': '#f6eb3f'
+                    'borderColor': '#f6eb3f'
                 }
             }
         }
