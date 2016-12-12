@@ -100,23 +100,23 @@
 | series\[0\].data\[0\].name | String | √ |  |  | 导航项显示的文本信息，允许重复 |
 | series\[0\].textStyle | Object | √ |  |  | 导航项的文本样式 |
 | series\[0\].textStyle.normal | Object | √ |  |  | 导航项**未选中**状态下的文本样式 |
-| series\[0\].textStyle.normal.fontSize | String | √ | 18px |  | 导航项**未选中**状态下的文本大小 |
-| series\[0\].textStyle.normal.color | String | √ | \#ffa84e | 支持CSS3中颜色的值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 导航项**未选中**状态下的文本颜色 |
+| series\[0\].textStyle.normal.fontSize | String | √ | 18px | 支持CSS3中font-size的参数值 | 导航项**未选中**状态下的文本大小 |
+| series\[0\].textStyle.normal.color | String | √ | \#ffa84e | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 导航项**未选中**状态下的文本颜色 |
 | series\[0\].textStyle.emphasis | Object | √ |  |  | 导航项**选中**状态下的文本样式 |
-| series\[0\].textStyle.emphasis.fontSize | String | √ | 18px |  | 导航项**选中**状态下的文本大小 |
+| series\[0\].textStyle.emphasis.fontSize | String | √ | 18px | 支持CSS3中font-size的参数值 | 导航项**选中**状态下的文本大小 |
 | series\[0\].textStyle.emphasis.color | String | √ | \#ffa84e | 支持CSS3中颜色的值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 导航项**选中**状态下的文本颜色 |
 | series\[0\].backgroundPathStyle | Object | √ |  |  | 导航项的背景斜线样式 |
 | series\[0\].backgroundPathStyle.normal | Object | √ |  |  | 导航项**未选中**状态下的背景斜线样式 |
-| series\[0\].backgroundPathStyle.normal.stroke | String | √ | \#ffe3c6 | 支持CSS3中颜色的值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 导航项**未选中**状态下的背景斜线的颜色 |
+| series\[0\].backgroundPathStyle.normal.stroke | String | √ | \#ffe3c6 | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 导航项**未选中**状态下的背景斜线的颜色 |
 | series\[0\].backgroundPathStyle.normal.opacity | Number | √ | 0 | 0.0-1.0 | 导航项**未选中**状态下的背景斜线的透明度 |
 | series\[0\].backgroundPathStyle.emphasis | Object | √ |  |  | 导航项**选中**状态下的背景斜线样式 |
-| series\[0\].backgroundPathStyle.emphasis.stroke | String | √ | \#ffe3c6 | 支持CSS3中颜色的值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 导航项**选中**状态下的背景斜线的颜色 |
+| series\[0\].backgroundPathStyle.emphasis.stroke | String | √ | \#ffe3c6 | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 导航项**选中**状态下的背景斜线的颜色 |
 | series\[0\].backgroundPathStyle.emphasis.opacity | Number | √ | 1 | 0.0-1.0 | 导航项**选中**状态下的背景斜线的透明度 |
 | series\[0\].bothSidesStyle | Object | √ |  |  | 导航项的左右边框样式 |
 | series\[0\].bothSidesStyle.normal | Object | √ |  |  | 导航框**未选中**状态的左右边框样式 |
-| series\[0\].bothSidesStyle.normal.borderColor | String | √ | \#ffd3a6 | 支持CSS3中颜色的值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 导航框**未选中**状态的左右边框颜色 |
+| series\[0\].bothSidesStyle.normal.borderColor | String | √ | \#ffd3a6 | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 导航框**未选中**状态的左右边框颜色 |
 | series\[0\].bothSidesStyle.emphasis | Object | √ |  |  | 导航框**选中**状态的左右边框样式 |
-| series\[0\].bothSidesStyle.emphasis.borderColor | String | √ | \#f6eb3f | 支持CSS3中颜色的值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 导航框**选中**状态的左右边框颜色 |
+| series\[0\].bothSidesStyle.emphasis.borderColor | String | √ | \#f6eb3f | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 导航框**选中**状态的左右边框颜色 |
 | series\[0\].name | String |  |  |  | 导航栏绑定数据时的数据字段 |
 | itemGap | Number | √ | 24 |  | 导航项之间的间隔 |
 
