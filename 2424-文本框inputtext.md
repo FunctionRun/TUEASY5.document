@@ -90,5 +90,9 @@
 | input.style.emphasis.background | String | √ | none | 支持CSS3中background所有参数值 | 文本框的输入框的**选中**状态文本框背景 |
 | input.style.emphasis.border | String | √ | 1px solid \#4285F4 | 支持CSS3中border的参数值 | 文本框的输入框的**选中**状态文本框边框样式 |
 
+> 注：
+>
+> * style.normal、style.mouse、style.emphasis中的属性支持CSS3中的样式属性，命名采用驼峰命名方式，用户可按照规则添加其他文本框样式
+
 
 
