@@ -24,6 +24,7 @@
             * [2.4.2.4 文本框\_Inputtext](2424-文本框inputtext.md)
             * [2.4.2.5 按钮\_basicButton](2425-按钮basicbutton.md)
             * [2.4.2.6 选项框\_MultiCheckBox](2426-选项框multicheckbox.md)
+            * [2.4.2.7 选项框\_RadioButton](2427-选项框radiobutton.md)
         * [2.4.3 添加3D模块](243-添加3d模块.md)
         * [2.4.4 关联互动](244-关联互动.md)
     * [2.5 上传应用缩略图](25-上传应用缩略图.md)
