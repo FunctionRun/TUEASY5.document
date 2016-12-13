@@ -13,10 +13,7 @@
         'text': '标签',
         'style': {
             'normal': {
-                'display': 'inline-block',
                 'textAlign': 'center',
-                'padding': '0 10px',
-                'verticalAlign': 'middle',
                 'fontSize': '16',
                 'fontWeight': 400,
                 'color': '#ccc'
@@ -66,7 +63,17 @@
 | label | Object | √ |  |  | 文本框的提示标签 |
 | label.text | String | √ | 标签 |  | 文本框的提示标签的文本内容 |
 | label.style | Object | √ |  |  | 文本框的提示标签的样式 |
-| label.style.normal | Object | √ |  |  |  |
+| label.style.normal | Object | √ |  |  | 文本框的提示标签的样式 |
+| label.style.normal.textAlign | String | √ | center | 支持CSS3中text-align的参数值 | 文本框的提示标签的文本水平对其方式 |
+| label.style.normal.fontSize | String | √ | 16px | 支持CSS3中font-size的参数值 | 文本框的提示标签的文本大小 |
+| label.style.normal.fontWeight | String | √ | 400 | 支持CSS3中font-weight的参数值 | 文本框的提示标签的文本粗细 |
+| label.style.normal.color | String | √ | \#ccc | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 文本框的提示标签的文本颜色 |
+| input | Object | √ |  |  | 文本框的输入框 |
+|  |  |  |  |  |  |
+|  |  |  |  |  |  |
+|  |  |  |  |  |  |
+|  |  |  |  |  |  |
+|  |  |  |  |  |  |
 |  |  |  |  |  |  |
 |  |  |  |  |  |  |
 |  |  |  |  |  |  |
