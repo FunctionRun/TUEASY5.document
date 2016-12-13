@@ -52,7 +52,14 @@
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | type | String | √ | Button |  | 控件类型——Button按钮，不可修改 |
 | normal | Object | √ |  |  | 按钮**未选中**状态样式 |
-| normal.backgroundColor | String | √ | \#31b16c |  | 按钮**未选中**状态背景颜色 |
+| normal.backgroundColor | String | √ | \#31b16c | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 按钮**未选中**状态背景颜色 |
+| normal.fontSize | String | √ | 20px | 支持CSS3中font-size的参数值 | 按钮**未选中**状态文本大小 |
+|  |  |  |  |  |  |
+|  |  |  |  |  |  |
+|  |  |  |  |  |  |
+|  |  |  |  |  |  |
+|  |  |  |  |  |  |
+|  |  |  |  |  |  |
 |  |  |  |  |  |  |
 
 
