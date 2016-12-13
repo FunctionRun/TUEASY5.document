@@ -1,6 +1,59 @@
 # 按钮\_basicButton ![](/assets/basicButton.png)
+
 ---
 
 > ## 开发模式
 
 ### 参数配置列表
+
+```
+{
+    'type': 'Button',
+    'normal': {
+        'backgroundColor': '#31b16c',
+        'fontSize': '20',
+        'borderRadius': '5',
+        'border': '1px solid #31b16c',
+        'color': '#fff',
+        'lineHeight': '30px',
+        'textAlign': 'center',
+        'cursor': 'pointer',
+        'opacity': 0.6
+    },
+    'mouse': {
+        'backgroundColor': '#31b16c',
+        'borderRadius': '5',
+        'fontSize': '20',
+        'border': '1px solid #31b16c',
+        'color': '#fff',
+        'lineHeight': '30px',
+        'textAlign': 'center',
+        'cursor': 'pointer',
+        'opacity': 0.8
+    },
+    'emphasis': {
+        'backgroundColor': '#31b16c',
+        'borderRadius': '5',
+        'fontSize': '20',
+        'color': '#fff',
+        'lineHeight': '30px',
+        'textAlign': 'center',
+        'border': '1px solid #31b16c',
+        'opacity': 0.7
+    },
+    'selected': false,
+    'text': '确 认'
+}
+```
+
+### 参数字段说明
+
+| 配置项 | 类型 | 必填 | 默认值 | 可选参数 | 功能/备注 |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| type | String | √ | Button |  | 控件类型——Button按钮，不可修改 |
+| normal | Object | √ |  |  | 按钮**未选中**状态样式 |
+| normal.backgroundColor | String | √ | \#31b16c |  | 按钮**未选中**状态背景颜色 |
+|  |  |  |  |  |  |
+
+
+
