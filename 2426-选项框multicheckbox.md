@@ -61,9 +61,9 @@
 | itemStyle.normal.color | String | √ | \#999999 | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 选项**未选中**状态勾选框与选项文本框内的文本颜色 |
 | itemStyle.normal.fontSize | String | √ | 20px | 支持CSS3中font-size的参数值 | 选项**未选中**状态勾选框与选项文本框内的文本大小 |
 | itemStyle.normal.backgroundColor | String | √ | \#fff | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 选项**未选中**状态勾选框与选项文本框内的背景颜色 |
-| itemStyle.normal | Object | √ |  |  | 选项**未选中**状态样式 |
-| itemStyle.normal.color | String | √ | \#999999 | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 选项**未选中**状态勾选框与选项文本框内的文本颜色 |
-| itemStyle.normal.fontSize | String | √ | 20px | 支持CSS3中font-size的参数值 | 选项**未选中**状态勾选框与选项文本框内的文本大小 |
+| itemStyle.checked | Object | √ |  |  | 选项**选中**状态样式 |
+| itemStyle.checked.color | String | √ | \#ffa84e | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 选项**选中**状态勾选框与选项文本框内的文本颜色 |
+| itemStyle.checked.fontSize | String | √ | 20px | 支持CSS3中font-size的参数值 | 选项**选中**状态勾选框与选项文本框内的文本大小 |
 
 
 
