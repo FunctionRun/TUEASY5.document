@@ -81,5 +81,9 @@
 | emphasis.textAlign | String | √ | center | 支持CSS3中text-align的参数值 | 按钮**选中**状态文本水平对齐方式 |
 | emphasis.opacity | Number | √ | 0.8 | 0.0-1.0 | 按钮**选中**状态背景透明度 |
 
+> 注：
+>
+> * normal、mouse、emphasis中的属性支持CSS3中的样式属性，命名采用驼峰命名方式，用户可按照规则添加其他按钮样式
+
 
 
