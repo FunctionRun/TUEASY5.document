@@ -61,19 +61,27 @@
 | label.text | String | √ | 标签 |  | 文本框的提示标签的文本内容 |
 | label.style | Object | √ |  |  | 文本框的提示标签的样式 |
 | label.style.normal | Object | √ |  |  | 文本框的提示标签的样式 |
-| label.style.normal.textAlign | String | √ | center | 支持CSS3中text-align的参数值 | 文本框的提示标签的文本水平对其方式 |
+| label.style.normal.textAlign | String | √ | center | 支持CSS3中text-align的参数值 | 文本框的提示标签的文本水平对齐方式 |
 | label.style.normal.fontSize | String | √ | 16px | 支持CSS3中font-size的参数值 | 文本框的提示标签的文本大小 |
 | label.style.normal.fontWeight | String | √ | 400 | 支持CSS3中font-weight的参数值 | 文本框的提示标签的文本粗细 |
 | label.style.normal.color | String | √ | \#ccc | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 文本框的提示标签的文本颜色 |
 | input | Object | √ |  |  | 文本框的输入框 |
 | input.value | String |  |  |  | 文本框的输入框文本内容 |
 | input.style | Object | √ |  |  | 文本框的输入框的样式 |
-|  |  |  |  |  |  |
-|  |  |  |  |  |  |
-|  |  |  |  |  |  |
-|  |  |  |  |  |  |
-|  |  |  |  |  |  |
-|  |  |  |  |  |  |
+| input.style.normal | Object | √ |  |  | 文本框的输入框的**未选中**状态样式 |
+| input.style.normal.color | String | √ | \#fff | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 文本框的输入框的**未选中**状态文本颜色 |
+| input.style.normal.borderRadius | String | √ | 1px | 支持CSS3中border-radius的参数值 | 文本框的输入框的**未选中**状态文本框圆角角度 |
+| input.style.normal.fontSize | String | √ | 15px | 支持CSS3中font-size的参数值 | 文本框的输入框的**未选中**状态文本大小 |
+| input.style.normal.textAlign | String | √ | center | 支持CSS3中text-align的参数值 | 文本框的输入框的**未选中**状态文本水平对齐方式 |
+| input.style.normal.background | String | √ | none | 支持CSS3中background所有参数值 | 文本框的输入框的**未选中**状态文本框背景 |
+| input.style.normal.borderBottom | String | √ | 1px solid \#4285F4 | 支持CSS3中border-bottom的参数值 | 文本框的输入框的**未选中**状态文本框边框底边样式 |
+| input.style.mouse | Object | √ |  |  | 文本框的输入框的**鼠标悬浮**状态样式 |
+| input.style.mouse.color | String | √ | \#fff | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 文本框的输入框的**鼠标悬浮**状态文本颜色 |
+| input.style.mouse.borderRadius | String | √ | 1px | 支持CSS3中border-radius的参数值 | 文本框的输入框的**鼠标悬浮**状态文本框圆角角度 |
+| input.style.mouse.fontSize | String | √ | 16px | 支持CSS3中font-size的参数值 | 文本框的输入框的**鼠标悬浮**状态文本大小 |
+| input.style.mouse.textAlign | String | √ | center | 支持CSS3中text-align的参数值 | 文本框的输入框的**鼠标悬浮**状态文本水平对齐方式 |
+| input.style.mouse.background | String | √ | none | 支持CSS3中background所有参数值 | 文本框的输入框的**鼠标悬浮**状态文本框背景 |
+| input.style.mouse.border | String | √ | 1px solid \#4285F4 | 支持CSS3中border的参数值 | 文本框的输入框的**鼠标悬浮**状态文本框边框样式 |
 
 
 
