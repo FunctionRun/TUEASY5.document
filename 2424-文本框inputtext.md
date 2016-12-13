@@ -25,7 +25,6 @@
         'style': {
             'normal': {
                 'color': '#fff',
-                'boxSizing': 'border-box',
                 'borderRadius': '1',
                 'fontSize': '15',
                 'textAlign': 'center',
@@ -34,7 +33,6 @@
             },
             'mouse': {
                 'color': '#fff',
-                'boxSizing': 'border-box',
                 'borderRadius': '1',
                 'fontSize': '16',
                 'textAlign': 'center',
@@ -43,7 +41,6 @@
             },
             'emphasis': {
                 'color': '#fff',
-                'boxSizing': 'border-box',
                 'borderRadius': '1',
                 'fontSize': '15',
                 'textAlign': 'center',
@@ -69,8 +66,8 @@
 | label.style.normal.fontWeight | String | √ | 400 | 支持CSS3中font-weight的参数值 | 文本框的提示标签的文本粗细 |
 | label.style.normal.color | String | √ | \#ccc | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 文本框的提示标签的文本颜色 |
 | input | Object | √ |  |  | 文本框的输入框 |
-|  |  |  |  |  |  |
-|  |  |  |  |  |  |
+| input.value | String |  |  |  | 文本框的输入框文本内容 |
+| input.style | Object | √ |  |  | 文本框的输入框的样式 |
 |  |  |  |  |  |  |
 |  |  |  |  |  |  |
 |  |  |  |  |  |  |
