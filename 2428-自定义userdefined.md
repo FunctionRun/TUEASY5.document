@@ -6,6 +6,8 @@
 
 ## ![](/assets/userdefined01.png)
 
+* 进入代码编辑器，使用VUE.js，编辑完成后**保存返回**主页面单击对勾√按钮，**直接返回**单击×按钮。
+
 ## ![](/assets/userdefined02.png)
 
 > ## 开发模式
