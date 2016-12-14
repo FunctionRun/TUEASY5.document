@@ -46,7 +46,7 @@
 
 ### 参数字段说明
 
-| 配置项 | 类型 | 必填 | 默认值 | 可选参数 | 功能/描述 |
+| 配置项 | 类型 | 必填 | 默认值 | 可选参数 | 功能/备注 |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | type | String | √ | MultiCheckBox |  | 控件类型——MultiCheckBox选项框，不可修改 |
 | consist | String | √ | radio | checkbox、radio | 选项种类。checkbox多选；radio单选 |
