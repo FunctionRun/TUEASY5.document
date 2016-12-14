@@ -66,9 +66,10 @@
 | getWeather.isByCity | Object | √ |  |  | 天气控件通过城市名获取天气信息 |
 | getWeather.isByCity.byCity | Bool | √ | true |  | 是否通过城市名获取天气信息 |
 | getWeather.isByCity.city | String | √ | 北京 |  | 获取天气信息的城市名 |
-| getWeather.isByCity | Object | √ |  |  | 天气控件通过城市名获取天气信息 |
-| getWeather.isByCity.byCity | Bool | √ | true |  | 是否通过城市名获取天气信息 |
-| getWeather.isByCity.city | String | √ | 北京 |  | 获取天气信息的城市名 |
+| getWeather.isByCoordinates | Object | √ |  |  | 天气控件通过经纬度名获取天气信息 |
+| getWeather.isByCoordinates.byCity | Bool | √ | true |  | 是否通过经纬度获取天气信息 |
+| getWeather.isByCoordinates.longitude | String | √ | 116.305145 |  | 获取天气信息的经度 |
+| getWeather.isByCoordinates.latitude | String | √ | 39.982368 |  | 获取天气信息的维度 |
 
 
 
