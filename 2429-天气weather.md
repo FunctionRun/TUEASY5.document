@@ -70,6 +70,9 @@
 | getWeather.isByCoordinates.byCity | Bool | √ | true |  | 是否通过经纬度获取天气信息 |
 | getWeather.isByCoordinates.longitude | String | √ | 116.305145 |  | 获取天气信息的经度 |
 | getWeather.isByCoordinates.latitude | String | √ | 39.982368 |  | 获取天气信息的维度 |
+| getWeather.windStyle | Object | √ |  |  | 天气控件中风信息样式 |
+| getWeather.windStyle.textStyle | Object | √ |  |  | 天气控件中风信息文本样式 |
+| getWeather.windStyle.textStyle.color | String | √ | \#fff | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 天气控件中风信息文本颜色 |
 
 
 
