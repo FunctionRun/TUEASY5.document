@@ -49,7 +49,7 @@
 | 配置项 | 类型 | 必填 | 默认值 | 可选参数 | 功能/描述 |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | type | String | √ | MultiCheckBox |  | 控件类型——MultiCheckBox选项框，不可修改 |
-| orient | String | √ | vertical | horizontal、vertical | 选项框方向。horizontal水平方向；vertical垂直方向 |
+| consist | String | √ | radio | checkbox、radio | 选项种类。checkbox多选；radio单选 |
 | itemGap | String | √ | 10px |  | 选项之间的间隔 |
 | iconGap | String | √ | 5px |  | 选项的勾选框与选项文本框之间的间隔 |
 | series | Array\(Object\) | √ |  |  | 选项数据 |
