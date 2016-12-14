@@ -8,46 +8,46 @@
 
 ```
 {
-	'type': 'MultiCheckbox',
-	'consist': 'checkbox',
-	'orient': 'horizontal',
-	'itemGap': '10px',
-	'iconGap': '5px',
-	'series': [
-		{
-			'name': '选项一',
-			'value': 'caseInfo'
-		},
-		{
-			'name': '选项二',
-			'value': 'police'
-		},
-		{
-			'name': '选项三',
-			'value': 'monitor'
-		}
-	],
-	'checkedValues': [
-		'police',
-		'caseInfo'
-	],
-	'itemStyle': {
-		'normal': {
-			'color': '#999999',
-			'fontSize': '20px',
-			'backgroundColor': '#fff'
-		},
-		'checked': {
-			'color': '#ffa84e',
-			'fontSize': '20px'
-		}
-	}
+    'type': 'MultiCheckbox',
+    'consist': 'checkbox',
+    'orient': 'horizontal',
+    'itemGap': '10px',
+    'iconGap': '5px',
+    'series': [
+        {
+            'name': '选项一',
+            'value': 'caseInfo'
+        },
+        {
+            'name': '选项二',
+            'value': 'police'
+        },
+        {
+            'name': '选项三',
+            'value': 'monitor'
+        }
+    ],
+    'checkedValues': [
+        'police',
+        'caseInfo'
+    ],
+    'itemStyle': {
+        'normal': {
+            'color': '#999999',
+            'fontSize': '20px',
+            'backgroundColor': '#fff'
+        },
+        'checked': {
+            'color': '#ffa84e',
+            'fontSize': '20px'
+        }
+    }
 }
 ```
 
 ### 参数字段说明
 
-| 配置项 | 类型 | 必填 | 默认值 | 可选参数 | 功能/描述 |
+| 配置项 | 类型 | 必填 | 默认值 | 可选参数 | 功能/备注 |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | type | String | √ | MultiCheckBox |  | 控件类型——MultiCheckBox选项框，不可修改 |
 | consist | String | √ | checkbox | checkbox、radio | 选项种类。checkbox多选；radio单选 |
