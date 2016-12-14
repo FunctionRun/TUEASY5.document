@@ -84,6 +84,6 @@
 | getWeather.timeStyle.textStyle.color | String | √ | \#fff | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 天气控件中**时间**信息文本颜色 |
 | getWeather.timeStyle | Object | √ |  |  | 天气控件中**时间**信息样式 |
 | getWeather.timeStyle.textStyle | Object | √ |  |  | 天气控件中**时间**信息文本样式 |
-| getWeather.timeStyle.textStyle.color | String | √ | \#fff | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 天气控件中**时间**信息文本颜色 |********
+| getWeather.timeStyle.textStyle.color | String | √ | \#fff | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 天气控件中**时间**信息文本颜色 |
 
 
