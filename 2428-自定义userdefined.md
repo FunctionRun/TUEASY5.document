@@ -2,13 +2,19 @@
 
 ---
 
+> ## 用户配置
+
+## ![](/assets/userdefined01.png)
+
+## ![](/assets/userdefined02.png)
+
 > ## 开发模式
 
 ### 参数配置列表
 
 ```
 {
-    'type': 'UserDefied',
+    'type': 'UserDefined',
     'content': '<style> @@TE@@    div#UserDefiedapp {  @@TE@@    background-color: green;  @@TE@@    width: 300px;  @@TE@@    height: 50px; @@TE@@    line-height: 50px;  @@TE@@    } @@TE@@</style> @@TE@@<template>  @@TE@@    <div id="UserDefiedapp">{{message}}</div> @@TE@@</template>@@TE@@<script>    @@TE@@    new Vue({@@TE@@        el: "#UserDefiedapp",@@TE@@        data: {@@TE@@                message: "Hello Vue.js! You can use Vue in this control"@@TE@@            }@@TE@@        }) @@TE@@</script>',
     'series': [
         {
