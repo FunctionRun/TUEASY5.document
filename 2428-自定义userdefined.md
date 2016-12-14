@@ -1,4 +1,4 @@
-# 选项框\_RadioButton ![](/assets/radiobutton.png)
+# 选项框\_RadioButton 
 
 ---
 
