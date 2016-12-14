@@ -70,9 +70,20 @@
 | getWeather.isByCoordinates.byCity | Bool | √ | true |  | 是否通过经纬度获取天气信息 |
 | getWeather.isByCoordinates.longitude | String | √ | 116.305145 |  | 获取天气信息的经度 |
 | getWeather.isByCoordinates.latitude | String | √ | 39.982368 |  | 获取天气信息的维度 |
-| getWeather.windStyle | Object | √ |  |  | 天气控件中风信息样式 |
-| getWeather.windStyle.textStyle | Object | √ |  |  | 天气控件中风信息文本样式 |
-| getWeather.windStyle.textStyle.color | String | √ | \#fff | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 天气控件中风信息文本颜色 |
-
+| getWeather.windStyle | Object | √ |  |  | 天气控件中**风**信息样式 |
+| getWeather.windStyle.textStyle | Object | √ |  |  | 天气控件中**风**信息文本样式 |
+| getWeather.windStyle.textStyle.color | String | √ | \#fff | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 天气控件中**风**信息文本颜色 |
+| getWeather.weatherStyle | Object | √ |  |  | 天气控件中**天气**信息样式 |
+| getWeather.weatherStyle.textStyle | Object | √ |  |  | 天气控件中**天气**信息文本样式 |
+| getWeather.weatherStyle.textStyle.color | String | √ | \#fff | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 天气控件中**天气**信息文本颜色 |
+| getWeather.temperatureStyle | Object | √ |  |  | 天气控件中**温度**信息样式 |
+| getWeather.temperatureStyle.textStyle | Object | √ |  |  | 天气控件中**温度**信息文本样式 |
+| getWeather.temperatureStyle.textStyle.color | String | √ | \#fff | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 天气控件中**温度**信息文本颜色 |
+| getWeather.timeStyle | Object | √ |  |  | 天气控件中**时间**信息样式 |
+| getWeather.timeStyle.textStyle | Object | √ |  |  | 天气控件中**时间**信息文本样式 |
+| getWeather.timeStyle.textStyle.color | String | √ | \#fff | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 天气控件中**时间**信息文本颜色 |
+| getWeather.timeStyle | Object | √ |  |  | 天气控件中**时间**信息样式 |
+| getWeather.timeStyle.textStyle | Object | √ |  |  | 天气控件中**时间**信息文本样式 |
+| getWeather.timeStyle.textStyle.color | String | √ | \#fff | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 天气控件中**时间**信息文本颜色 |********
 
 
