@@ -42,7 +42,13 @@
 | type | String | √ | UserDefined |  | 控件类型——UserDefined自定义，不可修改 |
 | content | String | √ |  |  | 自定义控件代码 |
 | series | Array\(Object\) | √ |  |  | 自定义控件中的数据 |
-| series.name | String | √ |  |  | 选项文本内容，可以重复 |
-| series.value | String | √ |  |  | 选项唯一标识，不可重复 |
+| series.name | String | √ |  |  | 数据文本内容，可以重复 |
+| series.value | String | √ |  |  | 数据唯一标识，不可重复 |
+
+> 注：
+>
+> * @@TE@@为换行转义字符
+> * 关于content中的VUE.js代码编辑，建议使用用户配置项，具体操作详见用户配置
+
 
 
