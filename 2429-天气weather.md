@@ -86,5 +86,10 @@
 | getWeather.weekStyle.textStyle | Object | √ |  |  | 天气控件中**星期**信息文本样式 |
 | getWeather.weekStyle.textStyle.color | String | √ | \#fff | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 天气控件中**星期**信息文本颜色 |
 
+> 注：
+>
+> * weatherControlStyle中的属性支持CSS3中的样式属性，命名采用驼峰命名方式，用户可按照规则添加其他天气样式
+> * getWeather.windStyle.textSryle、getWeather.weatherStyle.textSryle、getWeather.temperatureStyle.textSryle、getWeather.timeStyle.textSryle、getWeather.weekStyle.textSryle中的属性支持CSS3中的样式属性，命名采用驼峰命名方式，用户可按照规则添加其他天气信息样式
+
 
 
