@@ -66,6 +66,7 @@
 | getWeather.isByCity | Object | √ |  |  | 天气控件通过城市名获取天气信息 |
 | getWeather.isByCity.byCity | Bool | √ | true |  | 是否通过城市名获取天气信息 |
 | getWeather.isByCity.city | String | √ | 北京 |  | 获取天气信息的城市名 |
+| getWeather.isByCity | Object | √ |  |  | 天气控件通过城市名获取天气信息 |
 | getWeather.isByCity.byCity | Bool | √ | true |  | 是否通过城市名获取天气信息 |
 | getWeather.isByCity.city | String | √ | 北京 |  | 获取天气信息的城市名 |
 
