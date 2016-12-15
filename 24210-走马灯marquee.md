@@ -75,7 +75,7 @@
 > 注：
 >
 > * 跑马灯尚未绑定数据时，可以对series\[0\].data进行编辑；跑马灯绑定数据后，series会自动生成相应信息，可根据相应需求进行数据改动
-> * 
-
+> * 跑马灯的滑动速率由speedTime和speedDistance决定，单位时间内\(speedTime\)跑马灯走过的像素\(speedDistance\)
+> * itemStyle.normal中的属性支持CSS3中的样式属性，命名采用驼峰命名方式，用户可按照规则添加其他跑马灯样式
 
 
