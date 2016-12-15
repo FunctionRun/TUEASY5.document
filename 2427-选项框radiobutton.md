@@ -53,8 +53,8 @@
 | itemGap | String | √ | 10px |  | 选项之间的间隔 |
 | iconGap | String | √ | 5px |  | 选项的勾选框与选项文本框之间的间隔 |
 | series | Array\(Object\) | √ |  |  | 选项数据 |
-| series.name | String | √ |  |  | 选项文本内容，可以重复 |
-| series.value | String | √ |  |  | 选项唯一标识，不可重复 |
+| series\[0\].name | String | √ |  |  | 选项文本内容，可以重复 |
+| series\[0\].value | String | √ |  |  | 选项唯一标识，不可重复 |
 | checkedValues | Array\(String\) | √ |  |  | 当前为选中状态下的选项标识 |
 | itemStyle | Object | √ |  |  | 选项样式 |
 | itemStyle.normal | Object | √ |  |  | 选项**未选中**状态样式 |
