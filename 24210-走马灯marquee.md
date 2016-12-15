@@ -73,7 +73,7 @@
 | itemStyle.normal.paddingLeft | String | √ | 5px |  | 跑马灯控件的左内边距 |
 
 > 注：  
-> \* 导航栏尚未绑定数据时，可以对series\[0\].data进行编辑;导航栏绑定数据后，series\[0\].data会自动生成相应信息，用户只可以对name值进行修改
+> * 导航栏尚未绑定数据时，可以对series\[0\].data进行编辑;导航栏绑定数据后，series\[0\].data会自动生成相应信息，用户只可以对name值进行修改
 
 
 
