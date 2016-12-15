@@ -49,7 +49,7 @@
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | type | String | √ | UserDefined |  | 控件类型——UserDefined自定义，不可修改 |
 | content | String | √ |  |  | 自定义控件代码 |
-| series | Array\(Object\) | √ |  |  | 自定义控件中的数据 |
+| series | Array\(Object\) | √ |  |  | 自定义控件中的数据项 |
 | series.name | String | √ |  |  | 数据文本内容，可以重复 |
 | series.value | String | √ |  |  | 数据唯一标识，不可重复 |
 
