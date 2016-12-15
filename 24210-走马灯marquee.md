@@ -59,8 +59,8 @@
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | type | String | √ | Marquee |  | 控件类型——Marquee跑马灯，不可修改 |
 | series | Array\(Object\) | √ |  |  | 跑马灯控件中的数据项 |
-| series.name | String | √ |  |  | 数据文本内容，可以重复 |
-| series.value | String | √ |  |  | 数据唯一标识，不可重复 |
+| series\[0\].name | String | √ |  |  | 数据文本内容，可以重复 |
+| series\[0\].value | String | √ |  |  | 数据唯一标识，不可重复 |
 |  |  |  |  |  |  |
 |  |  |  |  |  |  |
 |  |  |  |  |  |  |
