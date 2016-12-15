@@ -95,7 +95,7 @@
 | animation.animationDelay | Number | √ | 1000 |  | 动画延时时间，即鼠标悬浮后与动画开始时间间隔，单位毫秒 |
 | series | Array\[Object\] | √ |  |  | 数据及样式的系列配置 |
 | series\[0\].type | String | √ | withLines |  | 控件类型——linesNav导航栏，不可修改 |
-| series\[0\].data | Array\[Object\] | √ |  |  | 导航控件所有数据 |
+| series\[0\].data | Array\[Object\] | √ |  |  | 导航控件中的数据项 |
 | series\[0\].data\[0\].key | String | √ |  |  | 导航项的唯一标识，不可重复 |
 | series\[0\].data\[0\].name | String | √ |  |  | 导航项显示的文本信息，允许重复 |
 | series\[0\].textStyle | Object | √ |  |  | 导航项的文本样式 |
