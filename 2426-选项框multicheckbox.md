@@ -68,7 +68,7 @@
 
 > 注：
 >
-> * 选项框尚未绑定数据时，可以对series进行编辑;选项框绑定数据后，series会自动生成相应信息，用户只可以对name值进行修改
+> * 选项框尚未绑定数据时，可以对series进行编辑；选项框绑定数据后，series会自动生成相应信息，用户只可以对name值进行修改
 > * 用户定义选项框初始化选中状态时可编辑checkedValues，其他情况下chekedValues会根据用户当前操作进行自动修改
 >
 > * itemStyle.normal、itemStyle.checked中的属性支持CSS3中的样式属性，命名采用驼峰命名方式，用户可按照规则添加其他选项框样式
