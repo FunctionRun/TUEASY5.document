@@ -1,4 +1,4 @@
-# 走马灯\_Marquee ![](/assets/Weather.png)
+# 走马灯\_Marquee ![](/assets/Marquee.png)
 
 ---
 
