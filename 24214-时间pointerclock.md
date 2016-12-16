@@ -1,4 +1,4 @@
-# 时间\_PionterClock ![](/assets/Clock.png)
+# 时间\_PionterClock 
 
 ---
 
