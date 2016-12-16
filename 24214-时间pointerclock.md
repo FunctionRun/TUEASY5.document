@@ -153,11 +153,11 @@
 | clock.aloneArc.lineStyle | Object | √ |  |  | 钟表的单独弧线样式 |
 | clock.aloneArc.lineStyle.fill | String | √ | \#5a9cc7 |  | 钟表的单独弧线填充颜色 |
 | clock.aloneArc.lineStyle.stroke | String | √ | \#5a9cc7 |  | 钟表的单独弧线边框颜色 |
-| clock.symmetryArc| Object | √ |  |  | 钟表的单独弧线装饰 |
-| clock.symmetryArc.show | Bool | √ | true |  | 是否显示钟表的单独弧线 |
-| clock.symmetryArc.lineStyle | Object | √ |  |  | 钟表的单独弧线样式 |
-| clock.symmetryArc.lineStyle.fill | String | √ | \#5a9cc7 |  | 钟表的单独弧线填充颜色 |
-| clock.symmetryArc.lineStyle.stroke | String | √ | \#5a9cc7 |  | 钟表的单独弧线边框颜色 |
+| clock.symmetryArc | Object | √ |  |  | 钟表的对称弧线装饰 |
+| clock.symmetryArc.show | Bool | √ | true |  | 是否显示钟表的对称弧线 |
+| clock.symmetryArc.lineStyle | Object | √ |  |  | 钟表的对称弧线样式 |
+| clock.symmetryArc.lineStyle.fill | String | √ | \#5a9cc7 |  | 钟表的对称弧线填充颜色 |
+| clock.symmetryArc.lineStyle.stroke | String | √ | \#5a9cc7 |  | 钟表的对称弧线边框颜色 |
 
 
 
