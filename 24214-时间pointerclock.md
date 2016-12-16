@@ -116,10 +116,10 @@
 | clock.clockAxis.axisTick.show | Bool | √ | true |  | 是否显示钟表的辅助刻度线 |
 | clock.clockAxis.axisTick.lineStyle | Object | √ |  |  | 钟表的辅助刻度线样式 |
 | clock.clockAxis.axisTick.lineStyle.stroke | String | √ | \#5a9cc7 |  | 钟表的辅助刻度线颜色 |
-| clock.clockAxis.axisTick | Object | √ |  |  | 钟表的辅助刻度线样式 |
-| clock.clockAxis.axisTick.show | Bool | √ | true |  | 是否显示钟表的辅助刻度线 |
-| clock.clockAxis.axisTick.lineStyle | Object | √ |  |  | 钟表的辅助刻度线样式 |
-| clock.clockAxis.axisTick.lineStyle.stroke | String | √ | \#5a9cc7 |  | 钟表的辅助刻度线颜色 |
+| clock.clockAxis.axisText | Object | √ |  |  | 钟表的辅助数字盘样式 |
+| clock.clockAxis.axisText.textGap | String | √ | 5px |  | 钟表的辅助数字盘与钟表中间圆边框的间距 |
+| clock.clockAxis.axisText.textStyle | Object | √ |  |  | 钟表的辅助数字盘数字样式 |
+| clock.clockAxis.axisText.textStyle.stroke | String | √ | \#5a9cc7 |  | 钟表的辅助数字盘数字颜色 |
 |  |  |  |  |  |  |
 |  |  |  |  |  |  |
 |  |  |  |  |  |  |
