@@ -37,6 +37,18 @@
                 'fill': '#5a9cc7'
             }
         },
+        'middleCircle': {
+            'show': true,
+            'lineStyle': {
+                'stroke': '#5a9cc7'
+            }
+        },
+        'innerCircle': {
+            'show': true,
+            'lineStyle': {
+                'stroke': '#5a9cc7'
+            }
+        },
         'hand': {
             'clockHourHand': {
                 'handStyle': {
@@ -78,19 +90,8 @@
                 'fill': '#5a9cc7',
                 'stroke': '#5a9cc7'
             }
-        },
-        'solidLineImmediatelyDottedLine': {
-            'show': true,
-            'lineStyle': {
-                'stroke': '#5a9cc7'
-            }
-        },
-        'solidLineInsideDottedLine': {
-            'show': true,
-            'lineStyle': {
-                'stroke': '#5a9cc7'
-            }
         }
+        
     },
     'series': [
         {
@@ -120,10 +121,24 @@
 | clock.clockAxis.axisText.textGap | String | √ | 5px |  | 钟表的辅助数字盘与钟表中间圆边框的间距 |
 | clock.clockAxis.axisText.textStyle | Object | √ |  |  | 钟表的辅助数字盘数字样式 |
 | clock.clockAxis.axisText.textStyle.stroke | String | √ | \#5a9cc7 |  | 钟表的辅助数字盘数字颜色 |
-|  |  |  |  |  |  |
-|  |  |  |  |  |  |
-|  |  |  |  |  |  |
-|  |  |  |  |  |  |
+| clock.outerCircle | Object | √ |  |  | 钟表的外圆边框样式 |
+| clock.outerCircle.show | Bool | √ | true |  | 是否显示钟表的外圆边框 |
+| clock.outerCircle.lineStyle | Object | √ |  |  | 钟表的外圆边框样式 |
+| clock.outerCircle.lineStyle.stroke | String | √ | \#5a9cc7 |  | 钟表的外圆边框颜色 |
+| clock.outerCircle | Object | √ |  |  | 钟表的外圆边框样式 |
+| clock.outerCircle.show | Bool | √ | true |  | 是否显示钟表的外圆边框 |
+| clock.outerCircle.lineStyle | Object | √ |  |  | 钟表的外圆边框样式 |
+| clock.outerCircle.lineStyle.stroke | String | √ | \#5a9cc7 |  | 钟表的外圆边框颜色 |
+| clock.outerCircle | Object | √ |  |  | 钟表的外圆边框样式 |
+| clock.outerCircle.show | Bool | √ | true |  | 是否显示钟表的外圆边框 |
+| clock.outerCircle.lineStyle | Object | √ |  |  | 钟表的外圆边框样式 |
+| clock.outerCircle.lineStyle.stroke | String | √ | \#5a9cc7 |  | 钟表的外圆边框颜色 |
+
+
+
+
+
+
 
 
 
