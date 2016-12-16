@@ -133,6 +133,28 @@
 | clock.innerCircle.show | Bool | √ | true |  | 是否显示钟表的内圆边框 |
 | clock.innerCircle.lineStyle | Object | √ |  |  | 钟表的内圆边框样式 |
 | clock.innerCircle.lineStyle.stroke | String | √ | \#5a9cc7 |  | 钟表的内圆边框颜色 |
+| clock.hand | Object | √ |  |  | 钟表的指针样式 |
+| clock.hand.clockHourHand | Object | √ |  |  | 钟表的时针样式 |
+| clock.hand.clockHourHand.handStyle | Object | √ |  |  | 钟表时针的针柄样式 |
+| clock.hand.clockHourHand.handStyle.fill | String | √ | \#5a9cc7 |  | 钟表时针的针柄填充颜色 |
+| clock.hand.clockHourHand.handStyle.stroke | String | √ | \#5a9cc7 |  | 钟表时针的针柄边框颜色 |
+| clock.hand.clockHourHand.lineStyle | Object | √ | \#5a9cc7 |  | 钟表时针的其余边框颜色 |
+| clock.hand.clockHourHand | Object | √ |  |  | 钟表的时针样式 |
+| clock.hand.clockHourHand.handStyle | Object | √ |  |  | 钟表时针的针柄样式 |
+| clock.hand.clockHourHand.handStyle.fill | String | √ | \#5a9cc7 |  | 钟表时针的针柄填充颜色 |
+| clock.hand.clockHourHand.handStyle.stroke | String | √ | \#5a9cc7 |  | 钟表时针的针柄边框颜色 |
+| clock.hand.clockHourHand.lineStyle | Object | √ | \#5a9cc7 |  | 钟表时针的其余边框颜色 |
+| clock.hand.clockHourHand | Object | √ |  |  | 钟表的时针样式 |
+| clock.hand.clockHourHand.handStyle | Object | √ |  |  | 钟表时针的针柄样式 |
+| clock.hand.clockHourHand.handStyle.fill | String | √ | \#5a9cc7 |  | 钟表时针的针柄填充颜色 |
+| clock.hand.clockHourHand.handStyle.stroke | String | √ | \#5a9cc7 |  | 钟表时针的针柄边框颜色 |
+| clock.hand.clockHourHand.lineStyle | Object | √ | \#5a9cc7 |  | 钟表时针的其余边框颜色 |
+
+
+
+
+
+
 
 
 
