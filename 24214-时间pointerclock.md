@@ -1,4 +1,4 @@
-# 时间\_PionterClock 
+# 时间\_PionterClock
 
 ---
 
@@ -25,8 +25,6 @@
             'axisText': {
                 'textGap': 5,
                 'textStyle': {
-                    'fill-opacity': 0.8,
-                    'fill': '#5a9cc7',
                     'stroke': '#5a9cc7'
                 }
             }
