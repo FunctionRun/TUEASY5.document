@@ -37,6 +37,34 @@
 				'fill': '#5a9cc7'
 			}
 		},
+		'hand': {
+			'clockHourHand': {
+				'handStyle': {
+					'fill': '#5a9cc7',
+					'stroke': '#5a9cc7'
+				},
+				'lineStyle': {
+					'stroke': '#5a9cc7'
+				}
+			},
+			'clockMinuteHand': {
+				'handStyle': {
+					'fill': '#5a9cc7',
+					'stroke': '#5a9cc7'
+				},
+				'lineStyle': {
+					'fill': '#5a9cc7'
+				}
+			},
+			'clockSecondHand': {
+				'handStyle': {
+					'fill': '#5a9cc7'
+				},
+				'lineStyle': {
+					'fill': '#5a9cc7'
+				}
+			}
+		},
 		'aloneArc': {
 			'show': true,
 			'lineStyle': {
@@ -74,7 +102,5 @@
 
 ### 参数字段说明
 
-
-
-
+![](/assets/pointerClock01.png)
 
