@@ -95,7 +95,7 @@
 | animation.animationDelay | Number | √ | 1000 |  | 动画延时时间，即鼠标悬浮后与动画开始时间间隔，单位毫秒 |
 | series | Array\[Object\] | √ |  |  | 数据及样式的系列配置 |
 | series\[0\].type | String | √ | withLines |  | 控件类型——linesNav导航栏，不可修改 |
-| series\[0\].data | Array\[Object\] | √ |  |  | 导航控件所有数据 |
+| series\[0\].data | Array\[Object\] | √ |  |  | 导航控件中的数据项 |
 | series\[0\].data\[0\].key | String | √ |  |  | 导航项的唯一标识，不可重复 |
 | series\[0\].data\[0\].name | String | √ |  |  | 导航项显示的文本信息，允许重复 |
 | series\[0\].textStyle | Object | √ |  |  | 导航项的文本样式 |
@@ -118,11 +118,11 @@
 | series\[0\].bothSidesStyle.emphasis | Object | √ |  |  | 导航框**选中**状态的左右边框样式 |
 | series\[0\].bothSidesStyle.emphasis.borderColor | String | √ | \#f6eb3f | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 导航框**选中**状态的左右边框颜色 |
 | series\[0\].name | String |  |  |  | 导航栏绑定数据时的数据字段 |
-| itemGap | Number | √ | 24 |  | 导航项之间的间隔 |
+| itemGap | Number | √ | 24 |  | 导航项之间的间距 |
 
 > 注：
 >
-> * 导航栏尚未绑定数据时，可以对series\[0\].data进行编辑;导航栏绑定数据后，series\[0\].data会自动生成相应信息，用户只可以对name值进行修改
+> * 导航栏尚未绑定数据时，可以对series\[0\].data进行编辑；导航栏绑定数据后，series\[0\].data会自动生成相应信息，用户只可以对name值进行修改
 > * textStyle两种状态下的文本样式均支持CSS3中的文本样式，命名采用驼峰命名方式，用户可按照规则添加其他文本样式
 
 
