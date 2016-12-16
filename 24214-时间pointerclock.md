@@ -91,7 +91,7 @@
                 'stroke': '#5a9cc7'
             }
         }
-        
+
     },
     'series': [
         {
@@ -125,20 +125,14 @@
 | clock.outerCircle.show | Bool | √ | true |  | 是否显示钟表的外圆边框 |
 | clock.outerCircle.lineStyle | Object | √ |  |  | 钟表的外圆边框样式 |
 | clock.outerCircle.lineStyle.stroke | String | √ | \#5a9cc7 |  | 钟表的外圆边框颜色 |
-| clock.outerCircle | Object | √ |  |  | 钟表的外圆边框样式 |
-| clock.outerCircle.show | Bool | √ | true |  | 是否显示钟表的外圆边框 |
-| clock.outerCircle.lineStyle | Object | √ |  |  | 钟表的外圆边框样式 |
-| clock.outerCircle.lineStyle.stroke | String | √ | \#5a9cc7 |  | 钟表的外圆边框颜色 |
-| clock.outerCircle | Object | √ |  |  | 钟表的外圆边框样式 |
-| clock.outerCircle.show | Bool | √ | true |  | 是否显示钟表的外圆边框 |
-| clock.outerCircle.lineStyle | Object | √ |  |  | 钟表的外圆边框样式 |
-| clock.outerCircle.lineStyle.stroke | String | √ | \#5a9cc7 |  | 钟表的外圆边框颜色 |
-
-
-
-
-
-
+| clock.middleCircle | Object | √ |  |  | 钟表的中间圆边框样式 |
+| clock.middleCircle.show | Bool | √ | true |  | 是否显示钟表的中间圆边框 |
+| clock.middleCircle.lineStyle | Object | √ |  |  | 钟表的中间圆边框样式 |
+| clock.middleCircle.lineStyle.stroke | String | √ | \#5a9cc7 |  | 钟表的中间圆边框颜色 |
+| clock.innerCircle | Object | √ |  |  | 钟表的内圆边框样式 |
+| clock.innerCircle.show | Bool | √ | true |  | 是否显示钟表的内圆边框 |
+| clock.innerCircle.lineStyle | Object | √ |  |  | 钟表的内圆边框样式 |
+| clock.innerCircle.lineStyle.stroke | String | √ | \#5a9cc7 |  | 钟表的内圆边框颜色 |
 
 
 
