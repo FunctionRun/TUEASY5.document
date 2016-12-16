@@ -116,10 +116,10 @@
 | clock.clockAxis.axisTick.show | Bool | √ | true |  | 是否显示钟表的辅助刻度线 |
 | clock.clockAxis.axisTick.lineStyle | Object | √ |  |  | 钟表的辅助刻度线样式 |
 | clock.clockAxis.axisTick.lineStyle.stroke | String | √ | \#5a9cc7 |  | 钟表的辅助刻度线颜色 |
-|  |  |  |  |  |  |
-|  |  |  |  |  |  |
-|  |  |  |  |  |  |
-|  |  |  |  |  |  |
+| clock.clockAxis.axisTick | Object | √ |  |  | 钟表的辅助刻度线样式 |
+| clock.clockAxis.axisTick.show | Bool | √ | true |  | 是否显示钟表的辅助刻度线 |
+| clock.clockAxis.axisTick.lineStyle | Object | √ |  |  | 钟表的辅助刻度线样式 |
+| clock.clockAxis.axisTick.lineStyle.stroke | String | √ | \#5a9cc7 |  | 钟表的辅助刻度线颜色 |
 |  |  |  |  |  |  |
 |  |  |  |  |  |  |
 |  |  |  |  |  |  |
