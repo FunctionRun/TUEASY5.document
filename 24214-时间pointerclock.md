@@ -148,6 +148,12 @@
 | clock.hand.clockSecondHand.handStyle | Object | √ |  |  | 钟表秒针的针柄样式 |
 | clock.hand.clockSecondHand.handStyle.fill | String | √ | \#5a9cc7 |  | 钟表秒针的针柄填充颜色 |
 | clock.hand.clockSecondHand.lineStyle | Object | √ | \#5a9cc7 |  | 钟表秒针的其余边框颜色 |
+| clock.aloneArc | Object | √ |  |  | 钟表的单独弧线装饰 |
+| clock.aloneArc.show | Bool | √ | true |  | 是否显示钟表的单独弧线 |
+| clock.aloneArc.lineStyle | Object | √ |  |  | 钟表的单独弧线样式 |
+| clock.aloneArc.lineStyle.fill | String | √ | \#5a9cc7 |  | 钟表的单独弧线填充颜色 |
+| clock.aloneArc.lineStyle.stroke | String | √ | \#5a9cc7 |  | 钟表的单独弧线边框颜色 |
+|  |  |  |  |  |  |
 
 
 
