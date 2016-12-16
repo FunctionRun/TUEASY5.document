@@ -144,11 +144,11 @@
 | clock.hand.clockMinuteHand.handStyle.fill | String | √ | \#5a9cc7 |  | 钟表分针的针柄填充颜色 |
 | clock.hand.clockMinuteHand.handStyle.stroke | String | √ | \#5a9cc7 |  | 钟表分针的针柄边框颜色 |
 | clock.hand.clockMinuteHand.lineStyle | Object | √ | \#5a9cc7 |  | 钟表分针的其余边框颜色 |
-| clock.hand.clockHourHand | Object | √ |  |  | 钟表的时针样式 |
-| clock.hand.clockHourHand.handStyle | Object | √ |  |  | 钟表时针的针柄样式 |
-| clock.hand.clockHourHand.handStyle.fill | String | √ | \#5a9cc7 |  | 钟表时针的针柄填充颜色 |
-| clock.hand.clockHourHand.handStyle.stroke | String | √ | \#5a9cc7 |  | 钟表时针的针柄边框颜色 |
-| clock.hand.clockHourHand.lineStyle | Object | √ | \#5a9cc7 |  | 钟表时针的其余边框颜色 |
+| clock.hand.clockSecondHand | Object | √ |  |  | 钟表的秒针样式 |
+| clock.hand.clockSecondHand.handStyle | Object | √ |  |  | 钟表秒针的针柄样式 |
+| clock.hand.clockSecondHand.handStyle.fill | String | √ | \#5a9cc7 |  | 钟表秒针的针柄填充颜色 |
+| clock.hand.clockSecondHand.handStyle.stroke | String | √ | \#5a9cc7 |  | 钟表秒针的针柄边框颜色 |
+| clock.hand.clockSecondHand.lineStyle | Object | √ | \#5a9cc7 |  | 钟表秒针的其余边框颜色 |
 
 
 
