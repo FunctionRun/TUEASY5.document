@@ -81,17 +81,15 @@
 | mouse.textStyle.fontSize | String | √ | 14px |  | 图片**鼠标悬浮**状态的文本样子 |
 | mouse.textStyle.marginLeft | String | √ | 0 |  | 图片**鼠标悬浮**状态的文本框左外边距 |
 | mouse.textStyle.marginTop | String | √ | 0 |  | 图片**鼠标悬浮**状态的文本框上外边距 |
-| mouse | Object | √ |  |  | 图片**鼠标悬浮**状态样式 |
-| mouse.src | String | √ |  |  | 图片**鼠标悬浮**状态资源地址 |
-| mouse.text | String |  |  |  | 图片**鼠标悬浮**状态的文本内容 |
-| mouse.imageStyle | Object | √ |  |  | 图片**鼠标悬浮**状态图片样式 |
-| mouse.imageStyle.borderRadius | String | √ | 1px |  | 图片**鼠标悬浮**状态的边框圆角角度 |
-| mouse.imageStyle.opacity | Number | √ | 0.0-1.0 |  | 图片**鼠标悬浮**状态的透明度 |
-| mouse.textStyle | Object | √ |  |  | 图片**鼠标悬浮**状态的文本样式 |
-| mouse.textStyle.color | String | √ | \#ccc |  | 图片**鼠标悬浮**状态的文本颜色 |
-| mouse.textStyle.fontSize | String | √ | 14px |  | 图片**鼠标悬浮**状态的文本样子 |
-| mouse.textStyle.marginLeft | String | √ | 0 |  | 图片**鼠标悬浮**状态的文本框左外边距 |
-| mouse.textStyle.marginTop | String | √ | 0 |  | 图片**鼠标悬浮**状态的文本框上外边距 |
+| emphasis | Object | √ |  |  | 图片**选中**状态样式 |
+| emphasis.src | String | √ |  |  | 图片**选中**状态资源地址 |
+| emphasis.text | String |  |  |  | 图片**选中**状态的文本内容 |
+| emphasis.imageStyle | Object | √ |  |  | 图片**选中**状态图片样式 |
+| emphasis.imageStyle.borderRadius | String | √ | 1px |  | 图片**选中**状态的边框圆角角度 |
+| emphasis.imageStyle.opacity | Number | √ | 0.0-1.0 |  | 图片**选中**状态的透明度 |
+| emphasis.textStyle | Object | √ |  |  | 图片**选中**状态的文本样式 |
+| emphasis.textStyle.color | String | √ | \#ccc |  | 图片**选中**状态的文本颜色 |
+| emphasis.textStyle.fontSize | String | √ | 14px |  | 图片**选中**状态的文本样子 |
 
 > 注：
 >
