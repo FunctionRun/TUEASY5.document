@@ -1,4 +1,4 @@
-# 图片\_Picture 
+# 图片\_Picture
 
 ---
 
@@ -8,12 +8,47 @@
 
 ```
 {
-    'rtsp': false,
-    'playState': 'play',
-    'muted': false,
-    'videoSrc': '../../../public/videos/testVideo.mp4',
-    'videoStyle': {
-
+    'type': 'Image',
+    'selected': false,
+    'normal': {
+        'src': '/public/images/default.png',
+        'text': '',
+        'imageStyle': {
+            'borderRadius': '1px',
+            'opacity': '1'
+        },
+        'textStyle': {
+            'color': '#ccc',
+            'fontSize': '14px',
+            'marginLeft': 0,
+            'marginTop': 0
+        }
+    },
+    'mouse': {
+        'src': '/public/images/default.png',
+        'text': '',
+        'imageStyle': {
+            'borderRadius': '1px',
+            'opacity': '1'
+        },
+        'textStyle': {
+            'color': '#ccc',
+            'fontSize': '14px',
+            'marginLeft': 0,
+            'marginTop': 0
+        }
+    },
+    'emphasis': {
+        'src': '/public/images/default.png',
+        'text': '',
+        'imageStyle': {
+            'borderRadius': '1px',
+            'opacity': '1'
+        },
+        'textStyle': {
+            'color': '#ccc',
+            'fontSize': '14px'
+        }
     }
 }
 ```
@@ -22,11 +57,30 @@
 
 | 配置项 | 类型 | 必填 | 默认值 | 可选参数 | 功能/描述 |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| rtsp | Bool | √ | false |  | 播放的视频是否支持rtsp\(实时流协议\) |
-| playState | String | √ | play | pause、play | 初始化时视频的播放状态。pause视频暂停播放，play视频播放 |
-| muted | Bool | √ | false |  | 是否播放音频 |
-| videoSrc | String | √ |  |  | 视频播放地址 |
-| videoStyle | Object |  |  |  | 视频的样式 |
+| type | String | √ | Image |  | 控件类型——Image图片，不可修改 |
+| selected | Bool | √ | false |  | 图片是否为选中状态 |
+| normal | Object | √ |  |  | 图片**未选中**状态样式 |
+| normal.src | String | √ |  |  | 图片**未选中**状资源地址 |
+| normal.text | String |  |  |  | 图片**未选中**状态的文本内容 |
+| normal.imageStyle | Object | √ |  |  |  |
+| normal.imageStyle.borderRadius | String | √ | 1px |  | 图片**未选中**状态的边框圆角角度 |
+| normal.imageStyle.opacity | Number | √ | 0.0-1.0 |  | 图片**未选中**状态的透明度 |
+| normal.textStyle | Object | √ |  |  | 图片**未选中**状态的文本样式 |
+| normal.textStyle.color | String | √ | \#ccc |  | 图片**未选中**状态的文本颜色 |
+| normal.textStyle.fontSize | String | √ | 14px |  | 图片**未选中**状态的文本样子 |
+| normal.textStyle.marginLeft | String | √ | -21 |  | 图片**未选中**状态的文本框左外边距 |
+| normal.textStyle.marginTop | String | √ | -7 |  | 图片**未选中**状态的文本框上外边距 |
+| normal | Object | √ |  |  | 图片**未选中**状态样式 |
+| normal.src | String | √ |  |  | 图片**未选中**状资源地址 |
+| normal.text | String |  |  |  | 图片**未选中**状态的文本内容 |
+| normal.imageStyle | Object | √ |  |  |  |
+| normal.imageStyle.borderRadius | String | √ | 1px |  | 图片**未选中**状态的边框圆角角度 |
+| normal.imageStyle.opacity | Number | √ | 0.0-1.0 |  | 图片**未选中**状态的透明度 |
+| normal.textStyle | Object | √ |  |  | 图片**未选中**状态的文本样式 |
+| normal.textStyle.color | String | √ | \#ccc |  | 图片**未选中**状态的文本颜色 |
+| normal.textStyle.fontSize | String | √ | 14px |  | 图片**未选中**状态的文本样子 |
+| normal.textStyle.marginLeft | String | √ | -21 |  | 图片**未选中**状态的文本框左外边距 |
+| normal.textStyle.marginTop | String | √ | -7 |  | 图片**未选中**状态的文本框上外边距 |
 
 > 注：
 >
