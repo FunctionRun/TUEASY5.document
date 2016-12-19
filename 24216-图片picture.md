@@ -93,7 +93,7 @@
 
 > 注：
 >
-> * videoStyle中的属性支持CSS3中的样式属性，命名采用驼峰命名方式，用户可按照规则添加其他视频样式
+> * normal.imageStyle和normal.textStyle、mouse.imageStyle和mouse.textStyle、emphasis.imageStyle和emphasis.textStyle中的属性支持CSS3中的样式属性，命名采用驼峰命名方式，用户可按照规则添加其他图片样式
 
 
 
