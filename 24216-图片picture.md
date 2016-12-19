@@ -66,7 +66,7 @@
 | normal.imageStyle.borderRadius | String | √ | 1px |  | 图片**未选中**状态的边框圆角角度 |
 | normal.imageStyle.opacity | Number | √ | 0.0-1.0 |  | 图片**未选中**状态的透明度 |
 | normal.textStyle | Object | √ |  |  | 图片**未选中**状态的文本样式 |
-| normal.textStyle.color | String | √ | \#ccc |  | 图片**未选中**状态的文本颜色 |
+| normal.textStyle.color | String | √ | \#ccc | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 图片**未选中**状态的文本颜色 |
 | normal.textStyle.fontSize | String | √ | 14px |  | 图片**未选中**状态的文本样子 |
 | normal.textStyle.marginLeft | String | √ | -21 |  | 图片**未选中**状态的文本框左外边距 |
 | normal.textStyle.marginTop | String | √ | -7 |  | 图片**未选中**状态的文本框上外边距 |
@@ -77,7 +77,7 @@
 | mouse.imageStyle.borderRadius | String | √ | 1px |  | 图片**鼠标悬浮**状态的边框圆角角度 |
 | mouse.imageStyle.opacity | Number | √ | 0.0-1.0 |  | 图片**鼠标悬浮**状态的透明度 |
 | mouse.textStyle | Object | √ |  |  | 图片**鼠标悬浮**状态的文本样式 |
-| mouse.textStyle.color | String | √ | \#ccc |  | 图片**鼠标悬浮**状态的文本颜色 |
+| mouse.textStyle.color | String | √ | \#ccc | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 图片**鼠标悬浮**状态的文本颜色 |
 | mouse.textStyle.fontSize | String | √ | 14px |  | 图片**鼠标悬浮**状态的文本样子 |
 | mouse.textStyle.marginLeft | String | √ | 0 |  | 图片**鼠标悬浮**状态的文本框左外边距 |
 | mouse.textStyle.marginTop | String | √ | 0 |  | 图片**鼠标悬浮**状态的文本框上外边距 |
@@ -88,7 +88,7 @@
 | emphasis.imageStyle.borderRadius | String | √ | 1px |  | 图片**选中**状态的边框圆角角度 |
 | emphasis.imageStyle.opacity | Number | √ | 0.0-1.0 |  | 图片**选中**状态的透明度 |
 | emphasis.textStyle | Object | √ |  |  | 图片**选中**状态的文本样式 |
-| emphasis.textStyle.color | String | √ | \#ccc |  | 图片**选中**状态的文本颜色 |
+| emphasis.textStyle.color | String | √ | \#ccc | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 图片**选中**状态的文本颜色 |
 | emphasis.textStyle.fontSize | String | √ | 14px |  | 图片**选中**状态的文本样子 |
 
 > 注：
