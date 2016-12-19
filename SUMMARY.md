@@ -32,6 +32,7 @@
             * [2.4.2.12 时间\_SingleCalendar](24212.md)
             * [2.4.2.13 时间\_MultiCalendar](24213-时间multicalendar.md)
             * [2.4.2.14 时间\_PointerClock](24214-时间pointerclock.md)
+            * [2.4.2.15 视频\_Video](24215-视频video.md)
         * [2.4.3 添加3D模块](243-添加3d模块.md)
         * [2.4.4 关联互动](244-关联互动.md)
     * [2.5 上传应用缩略图](25-上传应用缩略图.md)
