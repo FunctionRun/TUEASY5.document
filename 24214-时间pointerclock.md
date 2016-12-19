@@ -157,5 +157,3 @@
 | clock.symmetryArc.lineStyle.fill | String | √ | \#5a9cc7 |  | 钟表的对称弧线填充颜色 |
 | clock.symmetryArc.lineStyle.stroke | String | √ | \#5a9cc7 |  | 钟表的对称弧线边框颜色 |
 
-
-
