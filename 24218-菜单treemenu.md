@@ -134,14 +134,14 @@
 | itemStyle.menuStyle.normal.backgroundColor | String | √ | rgb\(102, 118, 136\) | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 下拉菜单**未选中**状态的背景颜色 |
 | itemStyle.menuStyle.normal.fontFamily | String | √ | 微软雅黑 | 支持CSS3中font-family的参数值 | 下拉菜单**未选中**状态的文本样式 |
 | itemStyle.menuStyle.normal.lineHeight | String | √ | 40px | 支持CSS3中line-height的参数值 | 下拉菜单**未选中**状态的文本行间距 |
-| itemStyle.menuStyle.emphasis| Object | √ |  |  | 下拉菜单**选中**状态样式 |
+| itemStyle.menuStyle.emphasis | Object | √ |  |  | 下拉菜单**选中**状态样式 |
 | itemStyle.menuStyle.emphasis.color | String | √ | \#fff | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 下拉菜单**选中**状态的文本颜色 |
 | itemStyle.menuStyle.emphasis.backgroundColor | String | √ | rgb\(239, 241, 243\) | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 下拉菜单**选中**状态的背景颜色 |
 
-
 > 注：
 >
-> * videoStyle中的属性支持CSS3中的样式属性，命名采用驼峰命名方式，用户可按照规则添加其他视频样式
+> * 菜单尚未绑定数据时，series中的children可以无限嵌套，建议一般三级菜单最号；绑定数据后series会自动生成，用户可根据自己需求手动修该文本内容
+> * itemStyle.primaryStyle、itemStyle.primaryArrowStyle、itemStyle.menuStyle.normal和itemStyle.menuStyle.emphasis中的属性支持CSS3中的样式属性，命名采用驼峰命名方式，用户可按照规则添加其他菜单样式
 
 
 
