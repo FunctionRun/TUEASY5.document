@@ -127,17 +127,17 @@
 | itemStyle.primaryArrowStyle | Object | √ |  |  | 菜单项显示栏的三角标样式 |
 | itemStyle.primaryArrowStyle.fontSize | String | √ | 14px | 支持CSS3中font-size的参数值 | 菜单项显示栏的三角标大小 |
 | itemStyle.primaryArrowStyle.color | String | √ | \#fff | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 菜单项显示栏的三角标颜色 |
-| itemStyle.primaryStyle | Object | √ |  |  | 菜单项显示栏的样式 |
-| itemStyle.primaryStyle.height | String | √ | 40px | 支持CSS3中height的参数值 | 菜单项显示栏的高度 |
-| itemStyle.primaryStyle.fontFamily | String | √ | 微软雅黑 | 支持CSS3中font-family的参数值 | 菜单项显示栏的文本样式 |
-| itemStyle.primaryStyle.fontSize | String | √ | 14px | 支持CSS3中font-size的参数值 | 菜单项显示栏的文本大小 |
-| itemStyle.primaryStyle.color | String | √ | \#fff | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 菜单项显示栏的文本颜色 |
-| itemStyle.primaryStyle.display | String | √ | inline-block | 支持CSS3中display的参数值 | 菜单项显示栏的文本显示 |
-| itemStyle.primaryStyle.backgroundColor | String | √ | rgb\(102, 118, 136\) | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 菜单项显示栏的背景颜色 |
-| itemStyle.primaryStyle.lineHeight | String | √ | 40px | 支持CSS3中line-height的参数值 | 菜单项显示栏的文本行间距 |
-| itemStyle.primaryArrowStyle | Object | √ |  |  | 菜单项显示栏的三角标样式 |
-| itemStyle.primaryArrowStyle.fontSize | String | √ | 14px | 支持CSS3中font-size的参数值 | 菜单项显示栏的三角标大小 |
-| itemStyle.primaryArrowStyle.color | String | √ | \#fff | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 菜单项显示栏的三角标颜色 |
+| itemStyle.menuStyle | Object | √ |  |  | 菜单项下拉菜单的样式 |
+| itemStyle.menuStyle.normal | Object | √ |  |  | 下拉菜单**未选中**状态样式 |
+| itemStyle.menuStyle.normal.fontSize | String | √ | 14px | 支持CSS3中font-size的参数值 | 下拉菜单**未选中**状态的文本大小 |
+| itemStyle.menuStyle.normal.color | String | √ | \#fff | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 下拉菜单**未选中**状态的文本颜色 |
+| itemStyle.menuStyle.normal.backgroundColor | String | √ | rgb\(102, 118, 136\) | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 下拉菜单**未选中**状态的背景颜色 |
+| itemStyle.menuStyle.normal.fontFamily | String | √ | 微软雅黑 | 支持CSS3中font-family的参数值 | 下拉菜单**未选中**状态的文本样式 |
+| itemStyle.menuStyle.normal.lineHeight | String | √ | 40px | 支持CSS3中line-height的参数值 | 下拉菜单**未选中**状态的文本行间距 |
+| itemStyle.menuStyle.emphasis| Object | √ |  |  | 下拉菜单**选中**状态样式 |
+| itemStyle.menuStyle.emphasis.color | String | √ | \#fff | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 下拉菜单**选中**状态的文本颜色 |
+| itemStyle.menuStyle.emphasis.backgroundColor | String | √ | rgb\(239, 241, 243\) | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 下拉菜单**选中**状态的背景颜色 |
+
 
 > 注：
 >
