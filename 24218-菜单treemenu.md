@@ -125,8 +125,8 @@
 | itemStyle.primaryStyle.backgroundColor | String | √ | rgb\(102, 118, 136\) | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 菜单项显示栏的背景颜色 |
 | itemStyle.primaryStyle.lineHeight | String | √ | 40px | 支持CSS3中line-height的参数值 | 菜单项显示栏的文本行间距 |
 | itemStyle.primaryArrowStyle | Object | √ |  |  | 菜单项显示栏的三角标样式 |
-| itemStyle.primaryStyle.fontSize | String | √ | 14px | 支持CSS3中font-size的参数值 | 菜单项显示栏的文本大小 |
-| itemStyle.primaryStyle.color | String | √ | \#fff | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 菜单项显示栏的文本颜色 |
+| itemStyle.primaryArrowStyle.fontSize | String | √ | 14px | 支持CSS3中font-size的参数值 | 菜单项显示栏的三角标大小 |
+| itemStyle.primaryArrowStyle.color | String | √ | \#fff | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 菜单项显示栏的三角标颜色 |
 
 > 注：
 >
