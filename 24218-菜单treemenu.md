@@ -139,7 +139,6 @@
 | itemStyle.primaryArrowStyle.fontSize | String | √ | 14px | 支持CSS3中font-size的参数值 | 菜单项显示栏的三角标大小 |
 | itemStyle.primaryArrowStyle.color | String | √ | \#fff | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 菜单项显示栏的三角标颜色 |
 
-
 > 注：
 >
 > * videoStyle中的属性支持CSS3中的样式属性，命名采用驼峰命名方式，用户可按照规则添加其他视频样式
