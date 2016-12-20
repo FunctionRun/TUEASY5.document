@@ -71,7 +71,7 @@
             ]
         }
     ],
-    'selectedValue': '北京市',
+    'titleName': '北京市',
     'SubTreeGap': 30,
     'itemStyle': {
         'primaryStyle': {
@@ -109,10 +109,25 @@
 | 配置项 | 类型 | 必填 | 默认值 | 可选参数 | 功能/描述 |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | type | String | √ | treeMenu |  | 控件类型——TreeMenu菜单，不可修改 |
-| series | Array\(Object\) | √ |  |  | 菜单数据项 |
-| series | Bool | √ | false |  | 是否播放音频 |
-| videoSrc | String | √ |  |  | 视频播放地址 |
-| videoStyle | Object |  |  |  | 视频的样式 |
+| series | Array\(Object\) | √ |  |  | 菜单数据项，每一个数组元素\(Object\)代表一个一级项 |
+| series\[0\].name | String | √ |  |  | 菜单项文本内容，可以重复 |
+| series\[0\].value | String | √ |  |  | 菜单项唯一标识 |
+| series\[0\].children | Object |  |  |  | 该级菜单项下的子菜单项，结构同一级项一样 |
+| titleName | String | √ |  |  | 初始化菜单时的默认菜单项文本内容。仅用于初始化显示，未选中当前任何菜单项 |
+| SubTreeGap | String | √ | 30px |  | 子菜单距离父级菜单向右缩进的距离 |
+| itemStyle | Object | √ |  |  | 菜单项的样式 |
+| itemStyle.primaryStyle | Object | √ |  |  | 菜单项显示栏的样式 |
+| itemStyle.primaryStyle.height | String | √ | 40px | 支持CSS3中height的参数值 | 菜单项显示栏的高度 |
+| itemStyle.primaryStyle.fontFamily | String | √ | 微软雅黑 | 支持CSS3中font-family的参数值 | 菜单项显示栏的文本样式 |
+| itemStyle.primaryStyle.fontSize | String | √ | 14px | 支持CSS3中font-size的参数值 | 菜单项显示栏的文本大小 |
+| itemStyle.primaryStyle.color | String | √ | \#fff | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 菜单项显示栏的文本颜色 |
+| itemStyle.primaryStyle.display | String | √ | inline-block | 支持CSS3中display的参数值 | 菜单项显示栏的文本显示 |
+| itemStyle.primaryStyle.backgroundColor | String | √ | rgb\(102, 118, 136\) | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 菜单项显示栏的背景颜色 |
+| itemStyle.primaryStyle.lineHeight | String | √ | 40px | 支持CSS3中line-height的参数值 | 菜单项显示栏的文本行间距 |
+|  |  |  |  |  |  |
+|  |  |  |  |  |  |
+|  |  |  |  |  |  |
+|  |  |  |  |  |  |
 
 > 注：
 >
