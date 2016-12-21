@@ -1,4 +1,4 @@
-# 图片\_Picture
+# 雷达\_ScanningRadar
 
 ---
 
@@ -8,48 +8,30 @@
 
 ```
 {
-    'type': 'Image',
-    'selected': false,
-    'normal': {
-        'src': '/public/images/default.png',
-        'text': '',
-        'imageStyle': {
-            'borderRadius': '1px',
-            'opacity': '1'
+    'scanningRadar': {
+        'splitLine': {
+            'show': true,
+            'lineStyle': {
+                'stroke': '#0afea4'
+            }
         },
-        'textStyle': {
-            'color': '#ccc',
-            'fontSize': '14px',
-            'marginLeft': 0,
-            'marginTop': 0
+        'axisLine': {
+            'show': true,
+            'lineStyle': {
+                'stroke': '#0afea4'
+            }
         }
     },
-    'mouse': {
-        'src': '/public/images/default.png',
-        'text': '',
-        'imageStyle': {
-            'borderRadius': '1px',
-            'opacity': '1'
-        },
-        'textStyle': {
-            'color': '#ccc',
-            'fontSize': '14px',
-            'marginLeft': 0,
-            'marginTop': 0
+    'series': [
+        {
+            'type': 'scanningRadar',
+            'colors': [
+                'white',
+                '#10a7ba',
+                'white'
+            ]
         }
-    },
-    'emphasis': {
-        'src': '/public/images/default.png',
-        'text': '',
-        'imageStyle': {
-            'borderRadius': '1px',
-            'opacity': '1'
-        },
-        'textStyle': {
-            'color': '#ccc',
-            'fontSize': '14px'
-        }
-    }
+    ]
 }
 ```
 
@@ -57,39 +39,18 @@
 
 | 配置项 | 类型 | 必填 | 默认值 | 可选参数 | 功能/描述 |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| type | String | √ | Image |  | 控件类型——Image图片，不可修改 |
-| selected | Bool | √ | false |  | 图片是否为选中状态 |
-| normal | Object | √ |  |  | 图片**未选中**状态样式 |
-| normal.src | String | √ |  |  | 图片**未选中**状态资源地址 |
-| normal.text | String |  |  |  | 图片**未选中**状态的文本内容 |
-| normal.imageStyle | Object | √ |  |  | 图片**未选中**状态图片样式 |
-| normal.imageStyle.borderRadius | String | √ | 1px |  | 图片**未选中**状态的边框圆角角度 |
-| normal.imageStyle.opacity | Number | √ | 0.0-1.0 |  | 图片**未选中**状态的透明度 |
-| normal.textStyle | Object | √ |  |  | 图片**未选中**状态的文本样式 |
-| normal.textStyle.color | String | √ | \#ccc | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 图片**未选中**状态的文本颜色 |
-| normal.textStyle.fontSize | String | √ | 14px |  | 图片**未选中**状态的文本样子 |
-| normal.textStyle.marginLeft | String | √ | -21 |  | 图片**未选中**状态的文本框左外边距 |
-| normal.textStyle.marginTop | String | √ | -7 |  | 图片**未选中**状态的文本框上外边距 |
-| mouse | Object | √ |  |  | 图片**鼠标悬浮**状态样式 |
-| mouse.src | String | √ |  |  | 图片**鼠标悬浮**状态资源地址 |
-| mouse.text | String |  |  |  | 图片**鼠标悬浮**状态的文本内容 |
-| mouse.imageStyle | Object | √ |  |  | 图片**鼠标悬浮**状态图片样式 |
-| mouse.imageStyle.borderRadius | String | √ | 1px |  | 图片**鼠标悬浮**状态的边框圆角角度 |
-| mouse.imageStyle.opacity | Number | √ | 0.0-1.0 |  | 图片**鼠标悬浮**状态的透明度 |
-| mouse.textStyle | Object | √ |  |  | 图片**鼠标悬浮**状态的文本样式 |
-| mouse.textStyle.color | String | √ | \#ccc | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 图片**鼠标悬浮**状态的文本颜色 |
-| mouse.textStyle.fontSize | String | √ | 14px |  | 图片**鼠标悬浮**状态的文本样子 |
-| mouse.textStyle.marginLeft | String | √ | 0 |  | 图片**鼠标悬浮**状态的文本框左外边距 |
-| mouse.textStyle.marginTop | String | √ | 0 |  | 图片**鼠标悬浮**状态的文本框上外边距 |
-| emphasis | Object | √ |  |  | 图片**选中**状态样式 |
-| emphasis.src | String | √ |  |  | 图片**选中**状态资源地址 |
-| emphasis.text | String |  |  |  | 图片**选中**状态的文本内容 |
-| emphasis.imageStyle | Object | √ |  |  | 图片**选中**状态图片样式 |
-| emphasis.imageStyle.borderRadius | String | √ | 1px |  | 图片**选中**状态的边框圆角角度 |
-| emphasis.imageStyle.opacity | Number | √ | 0.0-1.0 |  | 图片**选中**状态的透明度 |
-| emphasis.textStyle | Object | √ |  |  | 图片**选中**状态的文本样式 |
-| emphasis.textStyle.color | String | √ | \#ccc | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 图片**选中**状态的文本颜色 |
-| emphasis.textStyle.fontSize | String | √ | 14px |  | 图片**选中**状态的文本样子 |
+| scanningRadar | Object | √ |  |  | 雷达底图样式 |
+| scanningRadar.splitLine | Object | √ |  |  | 雷达底图圆环样式 |
+| scanningRadar.splitLine.show | Bool | √ | true |  | 是否显示雷达底图圆环 |
+| scanningRadar.splitLine.lineStyle | Object | √ |  |  | 雷达底图圆环线样式 |
+| scanningRadar.splitLine.lineStyle.stroke | String | √ | \#0afea4 |  | 雷达底图圆环线颜色 |
+| scanningRadar.axisLine | Object |  |  |  | 雷达底图辅助线 |
+| scanningRadar.axisLine.show | Bool | √ | true |  | 是否显示雷达底图辅助线 |
+| scanningRadar.axisLine.lineStyle | Object | √ |  |  | 雷达底图辅助线样式 |
+| scanningRadar.axisLine.lineStyle.stroke | String | √ | \#0afea4 |  | 雷达底图辅助线颜色 |
+| series | Array\(Object\) | √ |  |  | 雷达扫描片配色样式 |
+| series\[0\].type | String | √ | scanningRadar |  | 控件类型——scanningRadar雷达，不可修改 |
+| series\[0\].colors | String | √ | 'white','\#10a7ba','white' |  | 雷达扫描片配色组 |
 
 > 注：
 >
