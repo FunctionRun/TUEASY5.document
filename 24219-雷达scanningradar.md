@@ -1,4 +1,4 @@
-# 雷达\_ScanningRadar
+# 雷达\_ScanningRadar ![](/assets/ScanningRadar.png)
 
 ---
 
@@ -51,7 +51,6 @@
 | series | Array\(Object\) | √ |  |  | 雷达扫描片配色样式 |
 | series\[0\].type | String | √ | scanningRadar |  | 控件类型——scanningRadar雷达，不可修改 |
 | series\[0\].colors | String | √ | 'white','\#10a7ba','white' |  | 雷达扫描片配色组 |
-
 
 
 
