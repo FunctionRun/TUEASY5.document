@@ -23,7 +23,7 @@
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | color | Array\(String\) | √ |  |  | 数据项的默认颜色配置列表，数组元素为十六进制表示的颜色 |
 | [grid](#grid) | Array\(Object\) | √ |  |  | 直角坐标系内的绘图网格 |
-| tooltip | Object | √ |  |  | 提示框，鼠标悬浮交互式时的信息提示 |
+| [tooltip](#tooltip) | Object | √ |  |  | 提示框，鼠标悬浮交互式时的信息提示 |
 | xAxis | Array\(Object\) | √ |  |  | 直角坐标系中横轴数组 |
 | yAxis | Array\(Object\) | √ |  |  | 直角坐标系中纵轴数组 |
 | series | Array\(Object\) | √ |  |  | 该图表的详细配置 |
@@ -39,7 +39,6 @@
             'right': 50,
             'bottom': 20,
             'left': 50,
-            'radius': 10,
             'bgStyle': {
                 'normal': {
                     'fill': 'rgba(0,0,0,0)'
@@ -49,7 +48,7 @@
                 }
             }
         }
-    ],
+    ]
 ```
 
 **参数字段说明**
@@ -60,7 +59,127 @@
 | grid\[0\].right | Number | √ | 50 |  | 直角坐标系内绘图网格左上角纵坐标，数值单位px |
 | grid\[0\].bottom | Number | √ | 20 |  | 直角坐标系内绘图网格右下角纵坐标，数值单位px |
 | grid\[0\].left | Number | √ | 50 |  | 直角坐标系内绘图网格右下角横坐标，数值单位px |
+| grid\[0\].bgStyle | Object | √ |  |  | 直角坐标系内平面样式 |
+| grid\[0\].bgStyle.normal | Object | √ |  |  | **未选中**状态的平面样式 |
+| grid\[0\].bgStyle.normal.fill | String | √ | rgba\(0,0,0,0\) |  | **未选中**状态的平面填充颜色 |
+| grid\[0\].bgStyle.emphasis | Object | √ |  |  | **选中**状态的平面样式 |
+| grid\[0\].bgStyle.emphasis.fill | String | √ | rgba\(0,0,0,0\) |  | **选中**状态的平面填充颜色 |
+
+* ### tooltip
+
+**参数配置列表**
+
+```
+'tooltip': {
+		'show': true,
+		'style': {
+			'border-color': '#cc0',
+			'border-radius': '5',
+			'border-width': '2',
+			'border-style': 'solid',
+			'width': '100',
+			'height': '60',
+			'text-align': 'center',
+			'line-height': '60',
+			'pointer-events': 'none',
+			'background-color': 'rgba(255, 255, 255, 0.7)'
+		},
+		'formatter': function formatter(param) {
+
+	        return param.dataIndex + ': ' + param.value;
+	    },
+		'position': function position() {
+
+	        return [20, 10];
+	    }
+	}
+```
+
+**参数字段说明**
+
 |  |  |  |  |  |  |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+|  |  |  |  |  |  |
+
+* ### xAxis
+
+**参数配置列表**
+
+```
+'xAxis': [
+		{
+			'type': 'linear',
+			'inverse': false,
+			'axisLine': {
+				'show': false,
+				'lineStyle': {
+					'fill': 'none',
+					'stroke': 'yellow',
+					'stroke-width': '2',
+					'shape-rendering': 'crispEdges'
+				}
+			},
+			'axisLabel': {
+				'show': false,
+				'interval': 'auto',
+				'inside': false,
+				'rotate': 0,
+				'margin': 8,
+				'formatter': null,
+				'textStyle': {
+					'color': 'rgb(110, 110, 110)',
+					'fontSize': 12,
+					'fontStyle': 'normal',
+					'fontWeight': 'normal',
+					'fontFamily': 'sans-serif',
+					'fill': '#fff'
+				}
+			},
+			'axisTick': {
+				'show': false,
+				'symbol': 'line',
+				'inside': false,
+				'length': 10,
+				'symbolStyle': {
+					'stroke': '#fff',
+					'stroke-width': 1
+				}
+			},
+			'splitLine': {
+				'show': false,
+				'lineStyle': {
+					'fill': 'none',
+					'stroke': '#0f0',
+					'stroke-width': 1,
+					'type': 'dashed'
+				}
+			},
+			'position': 'bottom',
+			'min': 0,
+			'max': 1500,
+			'name': '',
+			'nameLocation': '',
+			'nameGap': '',
+			'data': '',
+			'boundaryGap': 1,
+			'splitNumber': 5,
+			'splitTicks': [
+
+			],
+			'splitArea': {
+				'show': true,
+				'areaStyle': {
+
+				}
+			}
+		}
+	],
+```
+
+**参数字段说明**
+
+| 配置项 | 类型 | 必填 | 默认值 | 可选参数 | 功能/备注 |
+| :--- | :--- | :--- | :--- | :--- | :--- |
 |  |  |  |  |  |  |
 
 
