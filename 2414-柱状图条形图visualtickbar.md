@@ -71,28 +71,28 @@
 
 ```
 'tooltip': {
-		'show': true,
-		'style': {
-			'border-color': '#cc0',
-			'border-radius': '5',
-			'border-width': '2',
-			'border-style': 'solid',
-			'width': '100',
-			'height': '60',
-			'text-align': 'center',
-			'line-height': '60',
-			'pointer-events': 'none',
-			'background-color': 'rgba(255, 255, 255, 0.7)'
-		},
-		'formatter': function formatter(param) {
+        'show': true,
+        'style': {
+            'border-color': '#cc0',
+            'border-radius': '5',
+            'border-width': '2',
+            'border-style': 'solid',
+            'width': '100',
+            'height': '60',
+            'text-align': 'center',
+            'line-height': '60',
+            'pointer-events': 'none',
+            'background-color': 'rgba(255, 255, 255, 0.7)'
+        },
+        'formatter': function formatter(param) {
 
-	        return param.dataIndex + ': ' + param.value;
-	    },
-		'position': function position() {
+            return param.dataIndex + ': ' + param.value;
+        },
+        'position': function position() {
 
-	        return [20, 10];
-	    }
-	}
+            return [20, 10];
+        }
+    }
 ```
 
 **参数字段说明**
@@ -107,79 +107,90 @@
 
 ```
 'xAxis': [
-		{
-			'type': 'linear',
-			'inverse': false,
-			'axisLine': {
-				'show': false,
-				'lineStyle': {
-					'fill': 'none',
-					'stroke': 'yellow',
-					'stroke-width': '2',
-					'shape-rendering': 'crispEdges'
-				}
-			},
-			'axisLabel': {
-				'show': false,
-				'interval': 'auto',
-				'inside': false,
-				'rotate': 0,
-				'margin': 8,
-				'formatter': null,
-				'textStyle': {
-					'color': 'rgb(110, 110, 110)',
-					'fontSize': 12,
-					'fontStyle': 'normal',
-					'fontWeight': 'normal',
-					'fontFamily': 'sans-serif',
-					'fill': '#fff'
-				}
-			},
-			'axisTick': {
-				'show': false,
-				'symbol': 'line',
-				'inside': false,
-				'length': 10,
-				'symbolStyle': {
-					'stroke': '#fff',
-					'stroke-width': 1
-				}
-			},
-			'splitLine': {
-				'show': false,
-				'lineStyle': {
-					'fill': 'none',
-					'stroke': '#0f0',
-					'stroke-width': 1,
-					'type': 'dashed'
-				}
-			},
-			'position': 'bottom',
-			'min': 0,
-			'max': 1500,
-			'name': '',
-			'nameLocation': '',
-			'nameGap': '',
-			'data': '',
-			'boundaryGap': 1,
-			'splitNumber': 5,
-			'splitTicks': [
+        {
+            'type': 'linear',
+            'inverse': false,
+            'axisLine': {
+                'show': false,
+                'lineStyle': {
+                    'stroke': 'yellow',
+                    'stroke-width': '2'
+                }
+            },
+            'axisLabel': {
+                'show': false,
+                'interval': 'auto',
+                'inside': false,
+                'rotate': 0,
+                'margin': 8,
+                'formatter': null,
+                'textStyle': {
+                    'font-size': 12,
+                    'font-style': 'normal',
+                    'font-weight': 'normal',
+                    'font-family': 'sans-serif',
+                    'fill': '#fff'
+                }
+            },
+            'axisTick': {
+                'show': false,
+                'symbol': 'line',
+                'inside': false,
+                'length': 10,
+                'symbolStyle': {
+                    'stroke': '#fff',
+                    'stroke-width': 1
+                }
+            },
+            'splitLine': {
+                'show': false,
+                'lineStyle': {
+                    'fill': 'none',
+                    'stroke': '#0f0',
+                    'stroke-width': 1,
+                    'type': 'dashed'
+                }
+            },
+            'position': 'bottom',
+            'min': 0,
+            'max': 1500,
+            'name': '',
+            'nameLocation': '',
+            'nameGap': '',
+            'data': '',
+            'boundaryGap': 1,
+            'splitNumber': 5,
+            'splitTicks': [
 
-			],
-			'splitArea': {
-				'show': true,
-				'areaStyle': {
+            ],
+            'splitArea': {
+                'show': true,
+                'areaStyle': {
 
-				}
-			}
-		}
-	],
+                }
+            }
+        }
+    ],
 ```
 
 **参数字段说明**
 
 | 配置项 | 类型 | 必填 | 默认值 | 可选参数 | 功能/备注 |
 | :--- | :--- | :--- | :--- | :--- | :--- |
+| xAxis\[0\].type | String | √ | linear | category、linear |  |
+| xAxis\[0\].inverse | Bool | √ | false |  | 是否沿水平方向反转图表 |
+| xAxis\[0\].axisLine | Object | √ |  |  | 水平坐标轴线 |
+| xAxis\[0\].axisLine.show | Bool | √ | false |  | 是否显示水平坐标轴线。 |
+| xAxis\[0\].axisLine.lineStyle | Object | √ |  |  | 水平坐标轴线样式 |
+| xAxis\[0\].axisLine.lineStyle.stroke | String | √ |  |  | 水平坐标轴线颜色 |
+| xAxis\[0\].axisLine.lineStyle.stroke-width | String | √ | 2 |  | 水平坐标轴线宽度 |
+| xAxis\[0\].axisLabel | Object | √ |  |  | 水平坐标轴文本标签 |
+| xAxis\[0\].axisLabel.show | Bool | √ | false |  | 是否显示水平坐标轴文本标签 |
+| xAxis\[0\].axisLabel.interval | String \| Number | √ | auto |  | 文本标签间隔。auto-自动隐藏显示不下的；0-全部显示 |
+| xAxis\[0\].axisLabel.inside | Bool | -- | -- | -- | -- |
+| xAxis\[0\].axisLabel.rotate | Number | -- | -- | -- | -- |
+| xAxis\[0\].axisLabel.margin | Number | -- | -- | -- | -- |
+| xAxis\[0\].axisLabel.formatter | String \| Function | -- | -- | -- | -- |
 |  |  |  |  |  |  |
 
 
