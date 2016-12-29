@@ -24,7 +24,7 @@
 | color | Array\(String\) | √ |  |  | 数据项的默认颜色配置列表，数组元素为十六进制表示的颜色 |
 | [grid](#grid) | Array\(Object\) | √ |  |  | 直角坐标系内的绘图网格 |
 | [tooltip](#tooltip) | Object | √ |  |  | 提示框，鼠标悬浮交互式时的信息提示 |
-| xAxis | Array\(Object\) | √ |  |  | 直角坐标系中横轴数组 |
+| [xAxis](#xaxis) | Array\(Object\) | √ |  |  | 直角坐标系中横轴数组 |
 | yAxis | Array\(Object\) | √ |  |  | 直角坐标系中纵轴数组 |
 | series | Array\(Object\) | √ |  |  | 该图表的详细配置 |
 
@@ -191,7 +191,12 @@
 | xAxis\[0\].axisLabel.rotate | Number | -- | -- | -- | -- |
 | xAxis\[0\].axisLabel.margin | Number | -- | -- | -- | -- |
 | xAxis\[0\].axisLabel.formatter | String \| Function | -- | -- | -- | -- |
-|  |  |  |  |  |  |
+| xAxis\[0\].axisLabel.textStyle | Object | √ |  |  | 文本标签中的文本样式 |
+| xAxis\[0\].axisLabel.textStyle.font-size | Number | √ | 12 |  | 文本标签中的文本大小 |
+| xAxis\[0\].axisLabel.textStyle.font-style | String | √ | normal |  | 文本标签中的文本样式 |
+| xAxis\[0\].axisLabel.textStyle.font-weight | String | √ | normal |  | 文本标签中的文本粗细 |
+| xAxis\[0\].axisLabel.textStyle.font-family | String | √ | sans-serif |  | 文本标签中的文本字体 |
+| xAxis\[0\].axisLabel.textStyle.fill | String | √ | \#fff |  | 文本标签中的文本颜色 |
 
 
 
