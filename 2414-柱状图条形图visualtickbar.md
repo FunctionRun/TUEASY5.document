@@ -186,17 +186,35 @@
 | xAxis\[0\].axisLine.lineStyle.stroke-width | String | √ | 2 |  | 水平坐标轴线宽度 |
 | xAxis\[0\].axisLabel | Object | √ |  |  | 水平坐标轴文本标签 |
 | xAxis\[0\].axisLabel.show | Bool | √ | false |  | 是否显示水平坐标轴文本标签 |
-| xAxis\[0\].axisLabel.interval | String \| Number | √ | auto |  | 文本标签间隔。auto-自动隐藏显示不下的；0-全部显示 |
+| xAxis\[0\].axisLabel.interval | String \| Number | √ | auto |  | 水平坐标轴文本标签间隔。auto-自动隐藏显示不下的；0-全部显示 |
 | xAxis\[0\].axisLabel.inside | Bool | -- | -- | -- | -- |
 | xAxis\[0\].axisLabel.rotate | Number | -- | -- | -- | -- |
 | xAxis\[0\].axisLabel.margin | Number | -- | -- | -- | -- |
 | xAxis\[0\].axisLabel.formatter | String \| Function | -- | -- | -- | -- |
-| xAxis\[0\].axisLabel.textStyle | Object | √ |  |  | 文本标签中的文本样式 |
-| xAxis\[0\].axisLabel.textStyle.font-size | Number | √ | 12 |  | 文本标签中的文本大小 |
-| xAxis\[0\].axisLabel.textStyle.font-style | String | √ | normal |  | 文本标签中的文本样式 |
-| xAxis\[0\].axisLabel.textStyle.font-weight | String | √ | normal |  | 文本标签中的文本粗细 |
-| xAxis\[0\].axisLabel.textStyle.font-family | String | √ | sans-serif |  | 文本标签中的文本字体 |
-| xAxis\[0\].axisLabel.textStyle.fill | String | √ | \#fff |  | 文本标签中的文本颜色 |
+| xAxis\[0\].axisLabel.textStyle | Object | √ |  |  | 水平坐标轴文本标签中的文本样式 |
+| xAxis\[0\].axisLabel.textStyle.font-size | Number | √ | 12 |  | 水平坐标轴文本标签中的文本大小 |
+| xAxis\[0\].axisLabel.textStyle.font-style | String | √ | normal |  | 水平坐标轴文本标签中的文本样式 |
+| xAxis\[0\].axisLabel.textStyle.font-weight | String | √ | normal |  | 水平坐标轴文本标签中的文本粗细 |
+| xAxis\[0\].axisLabel.textStyle.font-family | String | √ | sans-serif |  | 水平坐标轴文本标签中的文本字体 |
+| xAxis\[0\].axisLabel.textStyle.fill | String | √ | \#fff |  | 水平坐标轴文本标签中的文本颜色 |
+| xAxis\[0\].axisTick | Object | √ |  |  | 水平坐标轴刻度线 |
+| xAxis\[0\].axisTick.show | Bool | √ | false |  | 是否显示水平坐标轴刻度线 |
+| xAxis\[0\].axisTick.symbol | String | √ | line |  | 水平坐标轴刻度线符号 |
+| xAxis\[0\].axisTick.inside | Bool | √ | false |  | 水平坐标轴刻度线是否位于坐标轴内侧 |
+| xAxis\[0\].axisTick.length | Number | √ | 10 |  | 水平坐标轴刻度线的高度 |
+| xAxis\[0\].axisTick.symbolStyle | Object | √ |  |  | 水平坐标轴刻度线符号样式 |
+| xAxis\[0\].axisTick.symbolStyle.stroke | String | √ | \#fff |  | 水平坐标轴刻度线符号颜色 |
+| xAxis\[0\].axisTick.symbolStyle.stroke-width | Number | √ | 1 |  | 水平坐标轴刻度线符号宽度 |
+| xAxis\[0\].splitLine | Object | √ |  |  | 水平坐标轴的分割区域 |
+| xAxis\[0\].splitLine.show | Bool | √ | true |  | 是否显示水平坐标轴的分割区域线 |
+| xAxis\[0\].splitLine.lineStyle | Object | √ |  |  | 水平坐标轴的分割区域线样式 |
+| xAxis\[0\].splitLine.lineStyle.stroke | String | √ | \#0f0 |  | 水平坐标轴的分割区域线颜色 |
+| xAxis\[0\].splitLine.lineStyle.stroke-width | Number | √ | 1 |  | 水平坐标轴的分割区域线粗细 |
+| xAxis\[0\].splitLine.lineStyle.stroke-dasharray | Array\(Number\) | √ | \[1 0\] | 支持SVG stroke-dasharray属性的参数值 | 水平坐标轴的分割区域线类型 |
+| xAxis\[0\].position | String | √ | bottom | bottom、left、right、top | 水平坐标轴的位置 |
+| xAxis\[0\].min | Number | √ | 0 |  | 水平坐标轴的最小值 |
+| xAxis\[0\].max | Number | √ | 1500 |  | 水平坐标轴的最大值 |
+| xAxis\[0\].name |  |  |  |  |   |
 
 
 
