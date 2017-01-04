@@ -223,8 +223,13 @@
 | xAxis\[0\].splitTicks | Array | -- | -- | -- | -- |
 | xAxis\[0\].splitArea | Object | -- | -- | -- | -- |
 | xAxis\[0\].splitArea.show | Boolean | -- | -- | -- |  |
-|  |  |  |  |  |  |
-|  |  |  |  |  |  |
+| xAxis\[0\].splitArea.areaStyle | Object | -- | -- | -- | -- |
+
+* ### yAxis
+
+yAxis的配置与xAxis的配置相同
+
+
 
 
 
