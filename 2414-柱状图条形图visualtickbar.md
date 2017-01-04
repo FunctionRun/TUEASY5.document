@@ -178,16 +178,16 @@
 | 配置项 | 类型 | 必填 | 默认值 | 可选参数 | 功能/备注 |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | xAxis\[0\].type | String | √ | linear | category、linear |  |
-| xAxis\[0\].inverse | Bool | √ | false |  | 是否沿水平方向反转图表 |
+| xAxis\[0\].inverse | Boolean | √ | false |  | 是否沿水平方向反转图表 |
 | xAxis\[0\].axisLine | Object | √ |  |  | 水平坐标轴线 |
-| xAxis\[0\].axisLine.show | Bool | √ | false |  | 是否显示水平坐标轴线。 |
+| xAxis\[0\].axisLine.show | Boolean | √ | false |  | 是否显示水平坐标轴线。 |
 | xAxis\[0\].axisLine.lineStyle | Object | √ |  |  | 水平坐标轴线样式 |
 | xAxis\[0\].axisLine.lineStyle.stroke | String | √ |  |  | 水平坐标轴线颜色 |
 | xAxis\[0\].axisLine.lineStyle.stroke-width | String | √ | 2 |  | 水平坐标轴线宽度 |
 | xAxis\[0\].axisLabel | Object | √ |  |  | 水平坐标轴文本标签 |
-| xAxis\[0\].axisLabel.show | Bool | √ | false |  | 是否显示水平坐标轴文本标签 |
+| xAxis\[0\].axisLabel.show | Boolean | √ | false |  | 是否显示水平坐标轴文本标签 |
 | xAxis\[0\].axisLabel.interval | String \| Number | √ | auto |  | 水平坐标轴文本标签间隔。auto-自动隐藏显示不下的；0-全部显示 |
-| xAxis\[0\].axisLabel.inside | Bool | -- | -- | -- | -- |
+| xAxis\[0\].axisLabel.inside | Boolean | -- | -- | -- | -- |
 | xAxis\[0\].axisLabel.rotate | Number | -- | -- | -- | -- |
 | xAxis\[0\].axisLabel.margin | Number | -- | -- | -- | -- |
 | xAxis\[0\].axisLabel.formatter | String \| Function | -- | -- | -- | -- |
@@ -198,15 +198,15 @@
 | xAxis\[0\].axisLabel.textStyle.font-family | String | √ | sans-serif |  | 水平坐标轴文本标签中的文本字体 |
 | xAxis\[0\].axisLabel.textStyle.fill | String | √ | \#fff |  | 水平坐标轴文本标签中的文本颜色 |
 | xAxis\[0\].axisTick | Object | √ |  |  | 水平坐标轴刻度线 |
-| xAxis\[0\].axisTick.show | Bool | √ | false |  | 是否显示水平坐标轴刻度线 |
+| xAxis\[0\].axisTick.show | Boolean | √ | false |  | 是否显示水平坐标轴刻度线 |
 | xAxis\[0\].axisTick.symbol | String | √ | line |  | 水平坐标轴刻度线符号 |
-| xAxis\[0\].axisTick.inside | Bool | √ | false |  | 水平坐标轴刻度线是否位于坐标轴内侧 |
+| xAxis\[0\].axisTick.inside | Boolean | √ | false |  | 水平坐标轴刻度线是否位于坐标轴内侧 |
 | xAxis\[0\].axisTick.length | Number | √ | 10 |  | 水平坐标轴刻度线的高度 |
 | xAxis\[0\].axisTick.symbolStyle | Object | √ |  |  | 水平坐标轴刻度线符号样式 |
 | xAxis\[0\].axisTick.symbolStyle.stroke | String | √ | \#fff |  | 水平坐标轴刻度线符号颜色 |
 | xAxis\[0\].axisTick.symbolStyle.stroke-width | Number | √ | 1 |  | 水平坐标轴刻度线符号宽度 |
 | xAxis\[0\].splitLine | Object | √ |  |  | 水平坐标轴的分割区域 |
-| xAxis\[0\].splitLine.show | Bool | √ | true |  | 是否显示水平坐标轴的分割区域线 |
+| xAxis\[0\].splitLine.show | Boolean | √ | true |  | 是否显示水平坐标轴的分割区域线 |
 | xAxis\[0\].splitLine.lineStyle | Object | √ |  |  | 水平坐标轴的分割区域线样式 |
 | xAxis\[0\].splitLine.lineStyle.stroke | String | √ | \#0f0 |  | 水平坐标轴的分割区域线颜色 |
 | xAxis\[0\].splitLine.lineStyle.stroke-width | Number | √ | 1 |  | 水平坐标轴的分割区域线粗细 |
@@ -214,7 +214,17 @@
 | xAxis\[0\].position | String | √ | bottom | bottom、left、right、top | 水平坐标轴的位置 |
 | xAxis\[0\].min | Number | √ | 0 |  | 水平坐标轴的最小值 |
 | xAxis\[0\].max | Number | √ | 1500 |  | 水平坐标轴的最大值 |
-| xAxis\[0\].name |  |  |  |  |   |
+| xAxis\[0\].name | String | -- | -- | -- | 水平坐标轴的自定义名称 |
+| xAxis\[0\].nameLocation | String | -- | -- | center、end、start | 水平坐标轴的自定义名称位置 |
+| xAxis\[0\].nameGap | Number | -- | -- | -- | 水平坐标轴名称距离坐标轴的距离 |
+| xAxis\[0\].data | Array\(String\) |  |  |  | 水平坐标轴的离散数值 |
+| xAxis\[0\].boundaryGap | Number | -- | -- | -- | 水平坐标轴两端留白的大小 |
+| xAxis\[0\].splitNumber | Number | √ | 5 |  | 水平坐标轴分割的段数 |
+| xAxis\[0\].splitTicks | Array | -- | -- | -- | -- |
+| xAxis\[0\].splitArea | Object | -- | -- | -- | -- |
+| xAxis\[0\].splitArea.show | Boolean | -- | -- | -- |  |
+|  |  |  |  |  |  |
+|  |  |  |  |  |  |
 
 
 
