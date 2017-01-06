@@ -233,5 +233,82 @@ yAxis的配置与xAxis的配置相同
 
 **参数配置列表**
 
+```
+'series': [
+        {
+            'name': 'Apple',
+            'type': 'tickbar',
+            'coordinateSystem': 'cartesian2d',
+            'data': [
+                900,
+                600,
+                1100,
+                800,
+                1300
+            ],
+            'clipPath': {
+                'symbol': 'rect',
+                'symbolGap': 0.1,
+                'symbolNumber': 15,
+                'showBack': true
+            },
+            'symbolStyle': {
+                'normal': {
+                    'fill': 'rgb(41, 237, 138)',
+                    'borderColor': 'rgba(0, 0, 0, 0)',
+                    'borderWidth': 0,
+                    'borderType': 'none',
+                    'barBorderRadius': 0
+                },
+                'emphasis': {
+                    'fill': 'rgb(248, 234, 95)'
+                },
+                'backgroundColor': 'rgb(212, 251, 241)'
+            },
+            'label': {
+                'position': 'maxRight',
+                'textStyle': {
+                    'fill': 'rgb(122, 122, 122)',
+                    'fontSize': 12,
+                    'fontStyle': 'normal',
+                    'fontWeight': 'normal',
+                    'fontFamily': 'sans-serif',
+                    'font-size': '17px',
+                    'pointer-events': 'none'
+                },
+                'show': true,
+                'symbol': 'text',
+                'offsetX': 10,
+                'offsetY': 0,
+                'formatter': function formatter(param) {
+
+                    return param.value;
+                }
+            },
+            'barWidth': 30,
+            'barGap': 10
+        }
+    ]
+```
+
+**参考字段说明**
+
+| 配置项 | 类型 | 必填 | 默认值 | 可选参数 | 功能/备注 |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| series\[0\].name | String | √ |  |  | 系列数据的名称，不可重复 |
+| series\[0\].type | String | √ | tickbar |  | 系列数据显示的类型--tickBar柱形图/条形图 |
+| series\[0\].coordinateSystem | String | √ | cartesian2d |  | 图表坐标类型--cartesian2d2D坐标类型 |
+| series\[0\].data | Array\(Number\) | √ |  |  | 系列数据的数据值 |
+| series\[0\].clipPath | Object | √ |  |  | 柱形图/条形图中的小单元 |
+| series\[0\].clipPath.symbol | String | √ | rect | circle、person、rect | 柱形图/条形图中的小单元图形样式。circle为圆形，person为人形，rect为圆形 |
+| series\[0\].clipPath.symbolGap | Number | √ | 0.1 |  | 柱形图/条形图中的小单元间距 |
+| series\[0\].clipPath.symbolNumber | Number | √ | 15 |  | 一行柱形/条形中的小单元数目 |
+| series\[0\].clipPath.showBack | Boolean | √ | true |  | 是否显示无值的小单元部分 |
+| series\[0\].symbolStyle | Object | √ |  |  | 小单元样式 |
+| series\[0\].symbolStyle.normal | Object | √ |  |  | 小单元**未选中**状态样式 |
+| series\[0\].symbolStyle.normal.fill | String | √ |  |  |  |
+|  |  |  |  |  |  |
+|  |  |  |  |  |  |
+
 
 
