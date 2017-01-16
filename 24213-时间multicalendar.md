@@ -1,4 +1,4 @@
-# 时间\_MultiCalendar ![](/assets/Clock.png)
+# 时间\_MultiCalendar ![](/assets/MultiCalendar.png)
 
 ---
 
@@ -57,7 +57,6 @@
 > 注：
 >
 > * inputStyle和buttonStyle.normal、buttonStyle.emphasis中的属性支持CSS3中的样式属性，命名采用驼峰命名方式，用户可按照规则添加其他日历样式
-
 
 
 
