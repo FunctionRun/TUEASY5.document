@@ -10,8 +10,8 @@
 {
     'type': 'MultiCheckbox',
     'orient': 'vertical',
-    'itemGap': '10px',
-    'iconGap': '10px',
+    'itemGap': '10',
+    'iconGap': '10',
     'series': [
         {
             'name': '选项一',
@@ -50,8 +50,8 @@
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | type | String | √ | MultiCheckBox |  | 控件类型——MultiCheckBox选项框，不可修改 |
 | consist | String | √ | radio | checkbox、radio | 选项种类。checkbox多选；radio单选 |
-| itemGap | String | √ | 10px |  | 选项之间的间隔 |
-| iconGap | String | √ | 5px |  | 选项的勾选框与选项文本框之间的间隔 |
+| itemGap | Number | √ | 10 |  | 选项之间的间隔 |
+| iconGap | Number | √ | 5 |  | 选项的勾选框与选项文本框之间的间隔 |
 | series | Array\(Object\) | √ |  |  | 选项数据 |
 | series\[0\].name | String | √ |  |  | 选项文本内容，可以重复 |
 | series\[0\].value | String | √ |  |  | 选项唯一标识，不可重复 |
@@ -59,11 +59,11 @@
 | itemStyle | Object | √ |  |  | 选项样式 |
 | itemStyle.normal | Object | √ |  |  | 选项**未选中**状态样式 |
 | itemStyle.normal.color | String | √ | \#999999 | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 选项**未选中**状态勾选框与选项文本框内的文本颜色 |
-| itemStyle.normal.fontSize | String | √ | 20px | 支持CSS3中font-size的参数值 | 选项**未选中**状态勾选框与选项文本框内的文本大小 |
+| itemStyle.normal.fontSize | Number | √ | 20 | 支持CSS3中font-size的参数值 | 选项**未选中**状态勾选框与选项文本框内的文本大小 |
 | itemStyle.normal.backgroundColor | String | √ | none | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 选项**未选中**状态勾选框与选项文本框内的背景颜色 |
 | itemStyle.checked | Object | √ |  |  | 选项**选中**状态样式 |
 | itemStyle.checked.color | String | √ | \#ffa84e | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 选项**选中**状态勾选框与选项文本框内的文本颜色 |
-| itemStyle.checked.fontSize | String | √ | 20px | 支持CSS3中font-size的参数值 | 选项**选中**状态勾选框与选项文本框内的文本大小 |
+| itemStyle.checked.fontSize | Number | √ | 20 | 支持CSS3中font-size的参数值 | 选项**选中**状态勾选框与选项文本框内的文本大小 |
 
 > 注：
 >

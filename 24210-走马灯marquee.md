@@ -38,13 +38,13 @@
             'value': 'roadInfo'
         }
     ],
-    'categoryGap': '80px',
-    'itemGap': '20px',
+    'categoryGap': '80',
+    'itemGap': '20',
     'speedTime': 20,
-    'speedDistance': '2px',
+    'speedDistance': '2‘',
     'itemStyle': {
         'normal': {
-            'fontSize': '20px',
+            'fontSize': '20',
             'color': '#c1c1c1',
             'background': '#eff1f3',
             'paddingLeft': '5px'
@@ -61,13 +61,13 @@
 | series | Array\(Object\) | √ |  |  | 跑马灯控件中的数据项 |
 | series\[0\].name | String | √ |  |  | 数据文本内容，可以重复 |
 | series\[0\].value | String | √ |  |  | 数据唯一标识，不可重复 |
-| categoryGap | String | √ | 20px |  | 数据条之间的间距 |
-| itemGap | Sting | √ | 10px |  | 一条数据的数据项之间的间距 |
+| categoryGap | Number | √ | 20p |  | 数据条之间的间距 |
+| itemGap | Number | √ | 10 |  | 一条数据的数据项之间的间距 |
 | speedTime | Number | √ | 20 |  | 速率-时间，单位毫秒 |
-| speedDistance | String | √ | 2px |  | 速率-距离 |
+| speedDistance | Number | √ | 2 |  | 速率-距离 |
 | itemStyle | Object | √ |  |  | 跑马灯控件的样式 |
 | itemStyle.normal | Object | √ |  |  | 跑马灯控件的样式 |
-| itemStyle.normal.fontSize | String | √ | 20px | 支持CSS3中font-size的参数值 | 跑马灯控件的文本大小 |
+| itemStyle.normal.fontSize | Number | √ | 20 | 支持CSS3中font-size的参数值 | 跑马灯控件的文本大小 |
 | itemStyle.normal.color | String | √ | \#c1c1c1 | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 跑马灯控件的文本颜色 |
 | itemStyle.normal.background | String | √ | \#eff1f3 | 支持CSS3中background的所有参数值 | 跑马灯控件的背景样式 |
 | itemStyle.normal.paddingLeft | String | √ | 5px |  | 跑马灯控件的左内边距 |
