@@ -8,9 +8,9 @@
 
 > ## 数据绑定
 
-分类字段：字符串格式![](/assets/multiCheckBoxData.png)
+度量字段：不限格式、用于给分类字段做value向后台传值使用，一般没用。
 
-
+分类字段：字符串格式。字段个数1个。必填。![](/assets/multiCheckBoxData.png)
 
 ## 无
 
