@@ -8,6 +8,10 @@
 
 > ## 数据绑定
 
+分类字段：字符串格式![](/assets/multiCheckBoxData.png)
+
+
+
 ## 无
 
 > ## 开发模式
