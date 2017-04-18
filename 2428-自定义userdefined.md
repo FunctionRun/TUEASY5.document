@@ -45,13 +45,38 @@
 
 ### 参数字段说明
 
-| 配置项 | 类型 | 必填 | 默认值 | 可选参数 | 功能/备注 |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| type | String | √ | UserDefined |  | 控件类型——UserDefined自定义，不可修改 |
-| content | String | √ |  |  | 自定义控件代码 |
-| series | Array\(Object\) | √ |  |  | 自定义控件中的数据项 |
-| series\[0\].name | String | √ |  |  | 数据文本内容，可以重复 |
-| series\[0\].value | String | √ |  |  | 数据唯一标识，不可重复 |
+<table border="1">
+<tr>
+	<th width="15%">配置项</th>
+	<th width="30%">功能/描述</th>
+	<th>可选参数</th>
+</tr>
+<tr>
+	<td>type | String</td>
+	<td>控件类型——UserDefined自定义，不可修改</td>
+	<td>MultiCheckBox</td>
+</tr>
+<tr>
+	<td>content | String</td>
+	<td>自定义控件代码</td>
+	<td></td>
+</tr>
+<tr>
+	<td>series | Array[Object]</td>
+	<td>数据系列配置</td>
+	<td></td>
+</tr>
+<tr>
+	<td>series[0].name | String</td>
+	<td>数据的文本内容，可以重复</td>
+	<td></td>
+</tr>
+<tr>
+	<td>series[0].value | Array[Object]</td>
+	<td>数据的唯一标识，不可重复</td>
+	<td></td>
+</tr>
+</table>
 
 > 注：
 >
