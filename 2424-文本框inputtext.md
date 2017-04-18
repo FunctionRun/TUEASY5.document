@@ -12,47 +12,57 @@
 
 ```
 {
-    'type': 'Text',
-    'label': {
-        'text': '标签',
-        'style': {
-            'normal': {
-                'textAlign': 'center',
-                'fontSize': '16',
-                'fontWeight': 400,
-                'color': '#ccc'
-            }
-        }
-    },
-    'input': {
-        'value': '',
-        'style': {
-            'normal': {
-                'color': '#333',
-                'borderRadius': '1',
-                'fontSize': '15',
-                'textAlign': 'center',
-                'background': 'none',
-                'borderBottom': '1px solid #4285F4'
-            },
-            'mouse': {
-                'color': '#333',
-                'borderRadius': '1',
-                'fontSize': '16',
-                'textAlign': 'center',
-                'background': 'none',
-                'border': '1px solid #4285F4'
-            },
-            'emphasis': {
-                'color': '#333',
-                'borderRadius': '1',
-                'fontSize': '15',
-                'textAlign': 'center',
-                'background': 'none',
-                'border': '1px solid #4285F4'
-            }
-        }
-    }
+	'type': 'Text',
+	'label': {
+		'text': '标签',
+		'style': {
+			'normal': {
+				'textAlign': 'center',
+				'fontSize': '16',
+				'fontFamily': 'Hiragino Sans GB',
+				'fontWeight': 400,
+				'color': '#CCC'
+			}
+		}
+	},
+	'input': {
+		'value': '',
+		'style': {
+			'normal': {
+				'color': '#333',
+				'fontSize': '15',
+				'fontFamily': 'Hiragino Sans GB',
+				'textAlign': 'center',
+				'background': 'none',
+				'borderWidth': 1,
+				'borderColor': '#4285F4',
+				'borderStyle': 'solid',
+				'borderRadius': 1
+			},
+			'mouse': {
+				'color': '#333',
+				'fontSize': '16',
+				'fontFamily': 'Hiragino Sans GB',
+				'textAlign': 'center',
+				'background': 'none',
+				'borderWidth': 1,
+				'borderColor': '#4285F4',
+				'borderStyle': 'solid',
+				'borderRadius': 1
+			},
+			'emphasis': {
+				'color': '#333',
+				'fontSize': '15',
+				'fontFamily': 'Hiragino Sans GB',
+				'textAlign': 'center',
+				'background': 'none',
+				'borderWidth': 1,
+				'borderColor': '#4285F4',
+				'borderStyle': 'solid',
+				'borderRadius': 1
+			}
+		}
+	}
 }
 ```
 
