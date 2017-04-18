@@ -67,7 +67,7 @@
 <tr>
 	<td>type | String</td>
 	<td>控件类型——Button按钮，不可修改</td>
-	<td>Text</td>
+	<td>Button</td>
 </tr>
 <tr>
 	<td>normal | Object</td>
