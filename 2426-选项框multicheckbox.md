@@ -68,6 +68,11 @@
 	<td>checkbox、radio</td>
 </tr>
 <tr>
+	<td>orient | String</td>
+	<td>选项框对其方式，horizontal为水平对齐；vertical为垂直对齐</td>
+	<td>horizontal、vertical</td>
+</tr>
+<tr>
 	<td>itemGap | String</td>
 	<td>选项框中选项之间的间距</td>
 	<td></td>
