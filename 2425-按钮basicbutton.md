@@ -94,7 +94,7 @@
 	//鼠标样式，支持CSS3中cursor的参数值
 	'cursor': 'pointer',
 	//透明度，支持CSS3中opacity的参数值
-	'opacity': 0.6,
+	'opacity': 0.6
   }</pre></td>
 </tr>
 <tr>
@@ -111,7 +111,7 @@
 	'lineHeight': '47px',
 	'textAlign': 'center',
 	'cursor': 'pointer',
-	'opacity': 0.8,
+	'opacity': 0.8
   }</pre></td>
 </tr>
 <tr>
@@ -128,7 +128,7 @@
 	'lineHeight': '47px',
 	'textAlign': 'center',
 	'cursor': 'pointer',
-	'opacity': 0.7,
+	'opacity': 0.7
   }</pre></td>
 </tr>
 <tr>
