@@ -2,7 +2,7 @@
 
 ---
 
-> ## 用户配置
+> ## 编辑模式
 
 ## ![](/assets/userdefined01.png)
 
