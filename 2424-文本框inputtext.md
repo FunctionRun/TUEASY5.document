@@ -2,101 +2,186 @@
 
 ---
 
-> ## 配置模式
 
-@TODO 2017.3.16
+> ## 编辑模式
 
-> ## 数据绑定
+输入文本框共有两部分组成，标签部分和文本框部分。用户可以通过下方的用户编辑模式面板实现对输入文本框的标签和输入文本颜色、文本大小、边框样式的快速编辑。![](/assets/InputtextUser.jpg)
 
-## 无
+> ## 开发模式
 
-> ## 开发者模式
 
 ### 参数配置列表
 
 ```
 {
-    'type': 'Text',
-    'label': {
-        'text': '标签',
-        'style': {
-            'normal': {
-                'textAlign': 'center',
-                'fontSize': '16',
-                'fontWeight': 400,
-                'color': '#ccc'
-            }
-        }
-    },
-    'input': {
-        'value': '',
-        'style': {
-            'normal': {
-                'color': '#fff',
-                'borderRadius': '1',
-                'fontSize': '15',
-                'textAlign': 'center',
-                'background': 'none',
-                'borderBottom': '1px solid #4285F4'
-            },
-            'mouse': {
-                'color': '#fff',
-                'borderRadius': '1',
-                'fontSize': '16',
-                'textAlign': 'center',
-                'background': 'none',
-                'border': '1px solid #4285F4'
-            },
-            'emphasis': {
-                'color': '#fff',
-                'borderRadius': '1',
-                'fontSize': '15',
-                'textAlign': 'center',
-                'background': 'none',
-                'border': '1px solid #4285F4'
-            }
-        }
-    }
+	'type': 'Text',
+	'label': {
+		'text': '标签',
+		'style': {
+			'normal': {
+				'textAlign': 'center',
+				'fontSize': '16',
+				'fontFamily': 'Hiragino Sans GB',
+				'fontWeight': 400,
+				'color': '#CCC'
+			}
+		}
+	},
+	'input': {
+		'value': '',
+		'style': {
+			'normal': {
+				'color': '#333',
+				'fontSize': '15',
+				'fontFamily': 'Hiragino Sans GB',
+				'textAlign': 'center',
+				'background': 'none',
+				'borderWidth': 1,
+				'borderColor': '#4285F4',
+				'borderStyle': 'solid',
+				'borderRadius': 1
+			},
+			'mouse': {
+				'color': '#333',
+				'fontSize': '16',
+				'fontFamily': 'Hiragino Sans GB',
+				'textAlign': 'center',
+				'background': 'none',
+				'borderWidth': 1,
+				'borderColor': '#4285F4',
+				'borderStyle': 'solid',
+				'borderRadius': 1
+			},
+			'emphasis': {
+				'color': '#333',
+				'fontSize': '15',
+				'fontFamily': 'Hiragino Sans GB',
+				'textAlign': 'center',
+				'background': 'none',
+				'borderWidth': 1,
+				'borderColor': '#4285F4',
+				'borderStyle': 'solid',
+				'borderRadius': 1
+			}
+		}
+	}
 }
 ```
 
 ### 参数字段说明
 
-| 配置项 | 类型 | 必填 | 默认值 | 可选参数 | 功能/备注 |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| type | String | √ | Text |  | 控件类型——Text文本框，不可修改 |
-| label | Object | √ |  |  | 文本框的提示标签 |
-| label.text | String | √ | 标签 |  | 文本框的提示标签的文本内容 |
-| label.style | Object | √ |  |  | 文本框的提示标签的样式 |
-| label.style.normal | Object | √ |  |  | 文本框的提示标签的样式 |
-| label.style.normal.textAlign | String | √ | center | 支持CSS3中text-align的参数值 | 文本框的提示标签的文本水平对齐方式 |
-| label.style.normal.fontSize | String | √ | 16px | 支持CSS3中font-size的参数值 | 文本框的提示标签的文本大小 |
-| label.style.normal.fontWeight | String | √ | 400 | 支持CSS3中font-weight的参数值 | 文本框的提示标签的文本粗细 |
-| label.style.normal.color | String | √ | \#ccc | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 文本框的提示标签的文本颜色 |
-| input | Object | √ |  |  | 文本框的输入框 |
-| input.value | String |  |  |  | 文本框的输入框文本内容 |
-| input.style | Object | √ |  |  | 文本框的输入框的样式 |
-| input.style.normal | Object | √ |  |  | 文本框的输入框的**未选中**状态样式 |
-| input.style.normal.color | String | √ | \#fff | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 文本框的输入框的**未选中**状态文本颜色 |
-| input.style.normal.borderRadius | String | √ | 1px | 支持CSS3中border-radius的参数值 | 文本框的输入框的**未选中**状态文本框圆角角度 |
-| input.style.normal.fontSize | String | √ | 15px | 支持CSS3中font-size的参数值 | 文本框的输入框的**未选中**状态文本大小 |
-| input.style.normal.textAlign | String | √ | center | 支持CSS3中text-align的参数值 | 文本框的输入框的**未选中**状态文本水平对齐方式 |
-| input.style.normal.background | String | √ | none | 支持CSS3中background所有参数值 | 文本框的输入框的**未选中**状态文本框背景 |
-| input.style.normal.borderBottom | String | √ | 1px solid \#4285F4 | 支持CSS3中border-bottom的参数值 | 文本框的输入框的**未选中**状态文本框边框底边样式 |
-| input.style.mouse | Object | √ |  |  | 文本框的输入框的**鼠标悬浮**状态样式 |
-| input.style.mouse.color | String | √ | \#fff | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 文本框的输入框的**鼠标悬浮**状态文本颜色 |
-| input.style.mouse.borderRadius | String | √ | 1px | 支持CSS3中border-radius的参数值 | 文本框的输入框的**鼠标悬浮**状态文本框圆角角度 |
-| input.style.mouse.fontSize | String | √ | 16px | 支持CSS3中font-size的参数值 | 文本框的输入框的**鼠标悬浮**状态文本大小 |
-| input.style.mouse.textAlign | String | √ | center | 支持CSS3中text-align的参数值 | 文本框的输入框的**鼠标悬浮**状态文本水平对齐方式 |
-| input.style.mouse.background | String | √ | none | 支持CSS3中background所有参数值 | 文本框的输入框的**鼠标悬浮**状态文本框背景 |
-| input.style.mouse.border | String | √ | 1px solid \#4285F4 | 支持CSS3中border的参数值 | 文本框的输入框的**鼠标悬浮**状态文本框边框样式 |
-| input.style.emphasis | Object | √ |  |  | 文本框的输入框的**选中**状态样式 |
-| input.style.emphasis.color | String | √ | \#fff | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 文本框的输入框的**选中**状态文本颜色 |
-| input.style.emphasis.borderRadius | String | √ | 1px | 支持CSS3中border-radius的参数值 | 文本框的输入框的**选中**状态文本框圆角角度 |
-| input.style.emphasis.fontSize | String | √ | 15px | 支持CSS3中font-size的参数值 | 文本框的输入框的**选中**状态文本大小 |
-| input.style.emphasis.textAlign | String | √ | center | 支持CSS3中text-align的参数值 | 文本框的输入框的**选中**状态文本水平对齐方式 |
-| input.style.emphasis.background | String | √ | none | 支持CSS3中background所有参数值 | 文本框的输入框的**选中**状态文本框背景 |
-| input.style.emphasis.border | String | √ | 1px solid \#4285F4 | 支持CSS3中border的参数值 | 文本框的输入框的**选中**状态文本框边框样式 |
+<table border="1">
+<tr>
+	<th width="15%">配置项</th>
+	<th width="30%">功能/描述</th>
+	<th>可选参数</th>
+</tr>
+<tr>
+	<td>type | String</td>
+	<td>控件类型——Text文本框，不可修改</td>
+	<td>Text</td>
+</tr>
+<tr>
+	<td>label | Object</td>
+	<td>输入文本框的提示标签，有text和style两个属性</td>
+	<td></td>
+</tr>
+<tr>
+	<td>label.text | String</td>
+	<td>输入文本框的提示标签的文本内容</td>
+	<td></td>
+</tr>
+<tr>
+	<td>label.style | Object</td>
+	<td>输入文本框的提示标签的样式，仅有normal一个属性</td>
+	<td></td>
+</tr>
+<tr>
+	<td>label.style.normal | Object</td>
+	<td>输入文本框的提示标签的样式</td>
+	<td><pre> {
+	//文本水平对齐方式，支持CSS3中text-align的参数值
+	'textAlign': 'center',
+	//文本大小，支持CSS3中font-size的参数值
+	'fontSize': '16px',
+	//文本样式，支持CSS3中font-family的参数值
+	'fontFamily': 'Hiragino Sans GB',
+	//文本粗细，支持CSS3中font-weight的参数值
+	'fontWeight': 400,
+	//文本颜色，支持CSS3中颜色的参数值
+	'color': '#CCC'
+  }</pre></td>
+</tr>
+<tr>
+	<td>input | Object</td>
+	<td>输入文本框的输入框，有value和style两个属性</td>
+	<td></td>
+</tr>
+<tr>
+	<td>input.value | String</td>
+	<td>输入文本框的输入框的文本内容</td>
+	<td></td>
+</tr>
+<tr>
+	<td>input.style | Object</td>
+	<td>输入文本框的提示标签的样式，有normal、mouse和emphasis三个属性</td>
+	<td></td>
+</tr>
+<tr>
+	<td>input.style.normal | Object</td>
+	<td>输入文本框的输入框<b>未选中</b>状态的样式</td>
+	<td><pre> {
+	//文本颜色，支持CSS3中颜色的参数值
+	'color': '#333',
+	//文本大小，支持CSS3中font-size的参数值
+	'fontSize': '15px',
+	//文本样式，支持CSS3中font-family的参数值
+	'fontFamily': 'Hiragino Sans GB',
+	//文本水平对齐方式，支持CSS3中text-align的参数值
+	'textAlign': 'center',
+	//背景样式，支持CSS3中background的参数值
+	'background': 'none',
+	//边框宽度，支持CSS3中border-width的参数值
+	'borderWidth': 1px,
+	//边框颜色，支持CSS3中border-color的参数值
+	'borderColor': '#4285F4',
+	//边框样式，支持CSS3中border-style的参数值
+	'borderStyle': 'solid',
+	//边框圆角角度，支持CSS3中border-radius的参数值
+	'borderRadius': '1px'
+  }</pre></td>
+</tr>
+<tr>
+	<td>input.style.mouse | Object</td>
+	<td>输入文本框的输入框<b>鼠标悬浮</b>状态的样式</td>
+	<td><pre> {
+	'color': '#333',
+	'fontSize': '16px',
+	'fontFamily': 'Hiragino Sans GB',
+	'textAlign': 'center',
+	'background': 'none',
+	'borderWidth': 1px,
+	'borderColor': '#4285F4',
+	'borderStyle': 'solid',
+	'borderRadius': '1px'
+  }</pre></td>
+</tr>
+<tr>
+	<td>input.style.emphasis | Object</td>
+	<td>输入文本框的输入框<b>选中</b>状态的样式</td>
+	<td><pre> {
+	'color': '#333',
+	'fontSize': '15px',
+	'fontFamily': 'Hiragino Sans GB',
+	'textAlign': 'center',
+	'background': 'none',
+	'borderWidth': 1px,
+	'borderColor': '#4285F4',
+	'borderStyle': 'solid',
+	'borderRadius': '1px'
+  }</pre></td>
+</tr>
+</table>
 
 > 注：
 >
