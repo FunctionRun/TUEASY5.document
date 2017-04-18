@@ -4,7 +4,7 @@
 
 > ## 编辑模式
 
-## ![](/assets/buttonUser.jpg)
+用户可以通过下方的用户编辑模式面板实现对按钮样式的快速编辑。![](/assets/buttonUser.jpg)
 
 > ## 开发模式
 
