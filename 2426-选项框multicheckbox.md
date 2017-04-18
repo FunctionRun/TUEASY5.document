@@ -93,7 +93,7 @@
 	<td></td>
 </tr>
 <tr>
-	<td>series[0].data | Array[Object]</td>
+	<td>series[0].value | Array[Object]</td>
 	<td>选项数据的唯一标识，不可重复</td>
 	<td></td>
 </tr>
