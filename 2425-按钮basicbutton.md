@@ -12,41 +12,47 @@
 
 ```
 {
-    'type': 'Button',
-    'normal': {
-        'backgroundColor': '#31b16c',
-        'fontSize': '20',
-        'borderRadius': '5',
-        'border': '1px solid #31b16c',
-        'color': '#fff',
-        'lineHeight': '30px',
-        'textAlign': 'center',
-        'cursor': 'pointer',
-        'opacity': 0.6
-    },
-    'mouse': {
-        'backgroundColor': '#31b16c',
-        'borderRadius': '5',
-        'fontSize': '20',
-        'border': '1px solid #31b16c',
-        'color': '#fff',
-        'lineHeight': '30px',
-        'textAlign': 'center',
-        'cursor': 'pointer',
-        'opacity': 0.8
-    },
-    'emphasis': {
-        'backgroundColor': '#31b16c',
-        'borderRadius': '5',
-        'fontSize': '20',
-        'color': '#fff',
-        'lineHeight': '30px',
-        'textAlign': 'center',
-        'border': '1px solid #31b16c',
-        'opacity': 0.7
-    },
-    'selected': false,
-    'text': '确 认'
+	'type': 'TheButton',
+	'normal': {
+		'backgroundColor': '#31b16c',
+		'fontSize': '20',
+		'borderRadius': 5,
+		'borderColor': '#31b16c',
+		'borderWidth': 1,
+		'borderStyle': 'solid',
+		'color': '#fff',
+		'lineHeight': '47px',
+		'textAlign': 'center',
+		'cursor': 'pointer',
+		'opacity': 0.6
+	},
+	'mouse': {
+		'backgroundColor': '#31b16c',
+		'borderRadius': 5,
+		'fontSize': '20',
+		'borderColor': '#31b16c',
+		'borderWidth': 1,
+		'borderStyle': 'solid',
+		'color': '#fff',
+		'lineHeight': '47px',
+		'textAlign': 'center',
+		'cursor': 'pointer',
+		'opacity': 0.8
+	},
+	'emphasis': {
+		'backgroundColor': '#31b16c',
+		'borderRadius': 5,
+		'fontSize': '20',
+		'lineHeight': '47px',
+		'color': '#fff',
+		'textAlign': 'center',
+		'borderColor': '#31b16c',
+		'borderWidth': 1,
+		'borderStyle': 'solid',
+		'opacity': 0.7
+	},
+	'selected': false,
+	'text': '确 认'
 }
 ```
 
