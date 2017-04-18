@@ -55,36 +55,106 @@
 
 ### 参数字段说明
 
-| 配置项 | 类型 | 必填 | 默认值 | 可选参数 | 功能/备注 |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| type | String | √ | Weather |  | 控件类型——Weather天气，不可修改 |
-| weatherControlStyle | Object | √ |  |  | 天气控件的整体样式 |
-| weatherControlStyle.background | String | √ | \#ccc | 支持CSS3中background的所有参数值 | 天气控件的背景样式 |
-| getWeather | Object | √ |  |  | 天气控件的天气信息获取及显示样式 |
-| getWeather.width |  |  |  |  |  |
-| getWeather.height |  |  |  |  |  |
-| getWeather.isByCity | Object | √ |  |  | 天气控件通过城市名获取天气信息 |
-| getWeather.isByCity.byCity | Bool | √ | true |  | 是否通过城市名获取天气信息 |
-| getWeather.isByCity.city | String | √ | 北京 |  | 获取天气信息的城市名 |
-| getWeather.isByCoordinates | Object | √ |  |  | 天气控件通过经纬度名获取天气信息 |
-| getWeather.isByCoordinates.byCity | Bool | √ | true |  | 是否通过经纬度获取天气信息 |
-| getWeather.isByCoordinates.longitude | String | √ | 116.305145 |  | 获取天气信息的经度 |
-| getWeather.isByCoordinates.latitude | String | √ | 39.982368 |  | 获取天气信息的维度 |
-| getWeather.windStyle | Object | √ |  |  | 天气控件中**风**信息样式 |
-| getWeather.windStyle.textStyle | Object | √ |  |  | 天气控件中**风**信息文本样式 |
-| getWeather.windStyle.textStyle.color | String | √ | \#fff | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 天气控件中**风**信息文本颜色 |
-| getWeather.weatherStyle | Object | √ |  |  | 天气控件中**天气**信息样式 |
-| getWeather.weatherStyle.textStyle | Object | √ |  |  | 天气控件中**天气**信息文本样式 |
-| getWeather.weatherStyle.textStyle.color | String | √ | \#fff | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 天气控件中**天气**信息文本颜色 |
-| getWeather.temperatureStyle | Object | √ |  |  | 天气控件中**温度**信息样式 |
-| getWeather.temperatureStyle.textStyle | Object | √ |  |  | 天气控件中**温度**信息文本样式 |
-| getWeather.temperatureStyle.textStyle.color | String | √ | \#fff | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 天气控件中**温度**信息文本颜色 |
-| getWeather.timeStyle | Object | √ |  |  | 天气控件中**时间**信息样式 |
-| getWeather.timeStyle.textStyle | Object | √ |  |  | 天气控件中**时间**信息文本样式 |
-| getWeather.timeStyle.textStyle.color | String | √ | \#fff | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 天气控件中**时间**信息文本颜色 |
-| getWeather.weekStyle | Object | √ |  |  | 天气控件中**星期**信息样式 |
-| getWeather.weekStyle.textStyle | Object | √ |  |  | 天气控件中**星期**信息文本样式 |
-| getWeather.weekStyle.textStyle.color | String | √ | \#fff | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 天气控件中**星期**信息文本颜色 |
+<table border="1">
+<tr>
+	<th width="15%">配置项</th>
+	<th width="30%">功能/描述</th>
+	<th>可选参数</th>
+</tr>
+<tr>
+	<td>type | String</td>
+	<td>控件类型——Weather自定义，不可修改</td>
+	<td>Weather</td>
+</tr>
+<tr>
+	<td>weatherControlStyle | Object</td>
+	<td>天气控件的整体样式</td>
+	<td><pre> {
+	//背景样式，支持CSS3中background的参数值
+	'background': '#ccc'
+}</pre></td>
+</tr>
+<tr>
+	<td>getWeather | Object</td>
+	<td>天气控件的天气信息获取及显示样式</td>
+	<td><pre> {
+	//宽度，支持CSS3中width的参数值
+	'width': '300px',
+	//高度，支持CSS3中height的参数值
+	'height': '300px',
+	...
+}</pre></td>
+</tr>
+<tr>
+	<td>getWeather.isByCity | Object</td>
+	<td>天气控件通过城市名获取天气信息，有byCity和city两个属性</td>
+	<td><pre> {
+	//是否通过城市名获取天气信息，Bool
+	'byCity': 'true',
+	//获取天气信息的城市名，String
+	'city': '北京'
+}</pre></td>
+</tr>
+<tr>
+	<td>getWeather.isByCoordinates | Object</td>
+	<td>天气控件通过经纬度名获取天气信息，有byCoordinates、longitude和latitude三个属性</td>
+	<td><pre> {
+	//是否通过经纬度获取天气信息，Bool
+	'byCoordinates': 'true',
+	//获取天气信息的经度，String
+	'longitude': '116.305145',
+	//获取天气信息的纬度，String
+	'latitude': '39.982368'
+}</pre></td>
+</tr>
+<tr>
+	<td>getWeather.windStyle | Object</td>
+	<td>天气控件中<b>风</b>信息样式</td>
+	<td><pre> {
+	//文本样式
+	'textStyle': {
+		//文本颜色，支持CSS3中颜色的参数值
+		'color': '#fff'
+	}
+}</pre></td>
+</tr>
+<tr>
+	<td>getWeather.weatherStyle | Object</td>
+	<td>天气控件中<b>天气</b>信息样式</td>
+	<td><pre> {
+	'textStyle': {
+		'color': '#fff'
+	}
+}</pre></td>
+</tr>
+<tr>
+	<td>getWeather.temperatureStyle | Object</td>
+	<td>天气控件中<b>温度</b>信息样式</td>
+	<td><pre> {
+	'textStyle': {
+		'color': '#fff'
+	}
+}</pre></td>
+</tr>
+<tr>
+	<td>getWeather.timeStyle | Object</td>
+	<td>天气控件中<b>时间</b>信息样式</td>
+	<td><pre> {
+	'textStyle': {
+		'color': '#fff'
+	}
+}</pre></td>
+</tr>
+<tr>
+	<td>getWeather.weekStyle | Object</td>
+	<td>天气控件中<b>星期</b>信息样式</td>
+	<td><pre> {
+	'textStyle': {
+		'color': '#fff'
+	}
+}</pre></td>
+</tr>
+</table>
 
 > 注：
 >
