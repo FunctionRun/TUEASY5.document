@@ -124,9 +124,7 @@
 	<td>选项框中选项<b>选中</b>状态的样式</td>
 	<td><pre> {
 	'color': '#ffa94e',
-	//文本大小，支持CSS3中font-size的参数值
 	'fontSize': '20px',
-	//背景颜色，支持CSS3中颜色的参数值
 	'backgroundColor': '#fff'
   }</pre></td>
 </tr>
