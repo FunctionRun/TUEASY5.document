@@ -4,7 +4,7 @@
 
 > ## 编辑模式
 
-![](/assets/RadioButtonUser.jpg)
+用户可以通过下方编辑模式面板实现对多选项框的显示内容和样式的快速编辑。![](/assets/RadioButtonUser.jpg)
 
 > ## 开发模式
 
