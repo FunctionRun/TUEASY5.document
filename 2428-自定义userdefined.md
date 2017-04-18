@@ -54,7 +54,7 @@
 <tr>
 	<td>type | String</td>
 	<td>控件类型——UserDefined自定义，不可修改</td>
-	<td>MultiCheckBox</td>
+	<td>UserDefined</td>
 </tr>
 <tr>
 	<td>content | String</td>
