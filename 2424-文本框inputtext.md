@@ -28,7 +28,7 @@
         'value': '',
         'style': {
             'normal': {
-                'color': '#fff',
+                'color': '#333',
                 'borderRadius': '1',
                 'fontSize': '15',
                 'textAlign': 'center',
@@ -36,7 +36,7 @@
                 'borderBottom': '1px solid #4285F4'
             },
             'mouse': {
-                'color': '#fff',
+                'color': '#333',
                 'borderRadius': '1',
                 'fontSize': '16',
                 'textAlign': 'center',
@@ -44,7 +44,7 @@
                 'border': '1px solid #4285F4'
             },
             'emphasis': {
-                'color': '#fff',
+                'color': '#333',
                 'borderRadius': '1',
                 'fontSize': '15',
                 'textAlign': 'center',
