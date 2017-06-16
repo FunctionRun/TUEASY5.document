@@ -119,31 +119,11 @@
 
 ### 参数字段说明
 <table border="1">
-<tr>
-<th width="15%">配置项</th>
-<th width="50%">功能/描述</th>
-<th>可选参数</th>
-</tr>
-<tr>
-<td>currentSelect | Number</td>
-<td>初始化进入导航栏时默认的当前选中项</td>
-<td></td>
-</tr>
-<tr>
-<td>automatic | Object</td>
-<td>自动切换导航栏，有start和interval两个属性</td>
-<td></td>
-</tr>
-<tr>
-<td>automatic.start | Bool</td>
-<td>是否自动切换导航栏</td>
-<td></td>
-</tr>
-<tr>
-<td>automatic.interval | Number</td>
-<td>切换导航项的时间间隔，单位为毫秒。该属性当且仅当start为true时有效</td>
-<td></td>
-</tr>
+<tr> <th width="15%">配置项</th> <th width="50%">功能/描述</th> <th>可选参数</th> </tr> 
+<tr> <td>currentSelect | Number</td> <td>初始化进入导航栏时默认的当前选中项索引</td><td></td></tr>
+<tr> <td>automatic | Object</td> <td>自动切换导航栏，有start和interval两个属性</td><td></td></tr>
+<tr> <td>automatic.start | Bool</td> <td>是否开启自动切换</td> <td></td></tr>
+<tr> <td>automatic.interval | Number</td> <td>切换导航项的时间间隔，单位为毫秒。该属性当且仅当start为true时有效</td><td></td></tr>
 <tr>
 <td>maxNumInOneLine | Number</td>
 <td>导航栏中每行可以显示最多的导航项数目</td>
