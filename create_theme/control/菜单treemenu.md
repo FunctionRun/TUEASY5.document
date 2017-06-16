@@ -106,37 +106,106 @@
 
 ### 参数字段说明
 
-| 配置项 | 类型 | 必填 | 默认值 | 可选参数 | 功能/描述 |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| type | String | √ | treeMenu |  | 控件类型——TreeMenu菜单，不可修改 |
-| series | Array\(Object\) | √ |  |  | 菜单数据项，每一个数组元素\(Object\)代表一个一级项 |
-| series\[0\].name | String | √ |  |  | 菜单项文本内容，可以重复 |
-| series\[0\].value | String | √ |  |  | 菜单项唯一标识 |
-| series\[0\].children | Object |  |  |  | 该级菜单项下的子菜单项，结构同一级项一样 |
-| titleName | String | √ |  |  | 初始化菜单时的默认菜单项文本内容。仅用于初始化显示，未选中当前任何菜单项 |
-| SubTreeGap | String | √ | 30px |  | 子菜单距离父级菜单向右缩进的距离 |
-| itemStyle | Object | √ |  |  | 菜单项的样式 |
-| itemStyle.primaryStyle | Object | √ |  |  | 菜单项显示栏的样式 |
-| itemStyle.primaryStyle.height | String | √ | 40px | 支持CSS3中height的参数值 | 菜单项显示栏的高度 |
-| itemStyle.primaryStyle.fontFamily | String | √ | 微软雅黑 | 支持CSS3中font-family的参数值 | 菜单项显示栏的文本样式 |
-| itemStyle.primaryStyle.fontSize | String | √ | 14px | 支持CSS3中font-size的参数值 | 菜单项显示栏的文本大小 |
-| itemStyle.primaryStyle.color | String | √ | \#fff | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 菜单项显示栏的文本颜色 |
-| itemStyle.primaryStyle.display | String | √ | inline-block | 支持CSS3中display的参数值 | 菜单项显示栏的文本显示 |
-| itemStyle.primaryStyle.backgroundColor | String | √ | rgb\(102, 118, 136\) | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 菜单项显示栏的背景颜色 |
-| itemStyle.primaryStyle.lineHeight | String | √ | 40px | 支持CSS3中line-height的参数值 | 菜单项显示栏的文本行间距 |
-| itemStyle.primaryArrowStyle | Object | √ |  |  | 菜单项显示栏的三角标样式 |
-| itemStyle.primaryArrowStyle.fontSize | String | √ | 14px | 支持CSS3中font-size的参数值 | 菜单项显示栏的三角标大小 |
-| itemStyle.primaryArrowStyle.color | String | √ | \#fff | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 菜单项显示栏的三角标颜色 |
-| itemStyle.menuStyle | Object | √ |  |  | 菜单项下拉菜单的样式 |
-| itemStyle.menuStyle.normal | Object | √ |  |  | 下拉菜单**未选中**状态样式 |
-| itemStyle.menuStyle.normal.fontSize | String | √ | 14px | 支持CSS3中font-size的参数值 | 下拉菜单**未选中**状态的文本大小 |
-| itemStyle.menuStyle.normal.color | String | √ | \#fff | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 下拉菜单**未选中**状态的文本颜色 |
-| itemStyle.menuStyle.normal.backgroundColor | String | √ | rgb\(102, 118, 136\) | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 下拉菜单**未选中**状态的背景颜色 |
-| itemStyle.menuStyle.normal.fontFamily | String | √ | 微软雅黑 | 支持CSS3中font-family的参数值 | 下拉菜单**未选中**状态的文本样式 |
-| itemStyle.menuStyle.normal.lineHeight | String | √ | 40px | 支持CSS3中line-height的参数值 | 下拉菜单**未选中**状态的文本行间距 |
-| itemStyle.menuStyle.emphasis | Object | √ |  |  | 下拉菜单**选中**状态样式 |
-| itemStyle.menuStyle.emphasis.color | String | √ | \#fff | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 下拉菜单**选中**状态的文本颜色 |
-| itemStyle.menuStyle.emphasis.backgroundColor | String | √ | rgb\(239, 241, 243\) | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 下拉菜单**选中**状态的背景颜色 |
+<table border="1">
+    <tr>
+        <th width="15%">配置项</th>
+        <th width="30%">功能/描述</th>
+        <th>可选参数</th>
+    </tr>
+    <tr>
+        <td> type | String</td>
+        <td>控件类型——TreeMenu菜单，不可修改 </td>
+        <td>treeMenu</td>
+    </tr>
+    <tr>
+        <td> series | Array\(Object\)</td>
+        <td>菜单数据项，每一个数组元素\(Object\)代表一个一级项 </td>
+        <td> </td>
+    </tr>
+    <tr>
+        <td> series\[0\].name | String</td>
+        <td>菜单项文本内容，可以重复 </td>
+        <td> </td>
+    </tr>
+    <tr>
+        <td> series\[0\].value | String</td>
+        <td>菜单项唯一标识 </td>
+        <td> </td>
+    </tr>
+    <tr>
+        <td> series\[0\].children | Object</td>
+        <td>该级菜单项下的子菜单项，结构同一级项一样 </td>
+        <td> </td>
+    </tr>
+    <tr>
+        <td> titleName | String </td>
+        <td>初始化菜单时的默认菜单项文本内容。仅用于初始化显示，未选中当前任何菜单项 </td>
+        <td> </td>
+    </tr>
+    <tr>
+        <td> SubTreeGap | String </td>
+        <td>子菜单距离父级菜单向右缩进的距离 </td>
+        <td>30px</td>
+    </tr>
+    <tr>
+        <td> itemStyle | Object </td>
+        <td>菜单项的样式 </td>
+        <td> </td>
+    </tr>
+    <tr>
+        <td> itemStyle.primaryStyle | Object </td>
+        <td>菜单项显示栏的样式 </td>
+        <td><pre>
+{
+    'height': '40px',
+    'fontFamily': '微软雅黑',
+    'fontSize': '14px',
+    'color': '#fff',
+    'display': 'inline-block',
+    'backgroundColor': 'rgb(102, 118, 136)',
+    'lineHeight': '40px' 
+}
+    </pre></td>
+    </tr>
+    <tr>
+        <td> itemStyle.primaryArrowStyle| Object </td>
+        <td>菜单项显示栏的三角标样式  </td>
+        <td><pre>
+{
+    'fontSize': '18px',
+    'color': 'rgb(255, 255, 255)'
+}
+        </pre></td>
+    </tr>
+    <tr>
+        <td>itemStyle.menuStyle | Object </td>
+        <td>菜单项下拉菜单的样式 </td>
+        <td> </td>
+    </tr>
+    <tr>
+        <td>itemStyle.menuStyle.normal | Object  </td>
+        <td>下拉菜单**未选中**状态样式 </td>
+        <td><pre>
+{
+    'fontSize': '14px',
+    'color': '#fff',
+    'backgroundColor': 'rgb(102, 118, 136)',
+    'fontFamily': '微软雅黑',
+    'lineHeight': '30px'
+}
+        </pre></td>
+    </tr>
+    <tr>
+        <td>itemStyle.menuStyle.emphasis | Object  </td>
+        <td>下拉菜单**选中**状态样式  </td>
+        <td><pre>
+{
+    'color': '#1C243B',
+    'backgroundColor': 'rgb(239, 241, 243)'
+}
+        </pre></td>
+    </tr>
+</table>
 
 > 注：
 >

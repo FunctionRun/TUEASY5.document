@@ -26,18 +26,50 @@
 
 ### 参数字段说明
 
-| 配置项 | 类型 | 必填 | 默认值 | 可选参数 | 功能/备注 |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| type | String | √ | singleCalendar |  | 控件类型——singleCalendar时间，不可修改 |
-| themeColor | String | √ | \#667688 | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 日历界面的主体颜色 |
-| itemStyle | Object | √ |  |  | 显示条的样式 |
-| itemStyle.inputStyle | Object | √ |  |  | 显示条中日期显示框的样式 |
-| itemStyle.inputStyle.color | String | √ | \#333 | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 显示条中日期显示框文本颜色 |
-| itemStyle.inputStyle.fontSize | String | √ | 18px | 支持CSS3中font-size的参数值 | 显示条中日期显示框文本大小 |
-| itemStyle.selectStyle | Object | √ |  |  | 显示条中日期筛选框（年、月、日的切换）的样式 |
-| itemStyle.selectStyle.color | String | √ | \#333 | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 显示条中日期筛选框文本颜色 |
-| itemStyle.selectStyle.fontFamily | String | √ | 微软雅黑 | 支持CSS3中font-family的参数值 | 显示条中日期筛选框文本样式 |
-| itemStyle.selectStyle.fontSize | String | √ | 18px | 支持CSS3中font-size的参数值 | 显示条中日期筛选框文本大小 |
+
+<table border="1">
+    <tr>
+        <th width="15%">配置项</th>
+        <th width="30%">功能/描述</th>
+        <th>可选参数</th>
+    </tr>
+    <tr>
+        <td> type | String </td>
+        <td>控件类型——singleCalendar时间，不可修改 </td>
+        <td> singleCalendar </td>
+    </tr>
+    <tr>
+        <td> themeColor | String</td>
+        <td>日历界面的主体颜色</td>
+        <td> \#667688 ('Color Name'、HEX、RGB、RGBA、HSL、HSLA、transparent ) </td>
+    </tr>
+    <tr>
+        <td> itemStyle | Object </td>
+        <td>显示条的样式</td>
+        <td>Button</td>
+    </tr>
+    <tr>
+        <td> itemStyle.inputStyle | Object</td>
+        <td>显示条中日期显示框的样式 </td>
+        <td><pre>
+            {
+                'color': '#333',
+                'fontSize': '18px'
+            }
+        </pre></td>
+    </tr>
+    <tr>
+        <td> itemStyle.selectStyle </td>
+        <td> 显示条中日期筛选框（年、月、日的切换）的样式  </td>
+        <td><pre>
+            {
+                'color': '#333',
+                'fontFamily': '微软雅黑',
+                'fontSize': '18px'
+            }
+        </pre></td>
+    </tr>
+</table>
 
 > 注：
 >
