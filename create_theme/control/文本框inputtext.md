@@ -183,9 +183,6 @@
 </tr>
 </table>
 
-> 注：
->
-> * style.normal、style.mouse、style.emphasis中的属性支持CSS3中的样式属性，命名采用驼峰命名方式，用户可按照规则添加其他文本框样式
 
 
 
