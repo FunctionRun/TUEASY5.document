@@ -55,22 +55,79 @@
 
 ### 参数字段说明
 
-| 配置项 | 类型 | 必填 | 默认值 | 可选参数 | 功能/备注 |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| type | String | √ | Marquee |  | 控件类型——Marquee跑马灯，不可修改 |
-| series | Array\(Object\) | √ |  |  | 跑马灯控件中的数据项 |
-| series\[0\].name | String | √ |  |  | 数据文本内容，可以重复 |
-| series\[0\].value | String | √ |  |  | 数据唯一标识，不可重复 |
-| categoryGap | String | √ | 20px |  | 数据条之间的间距 |
-| itemGap | Sting | √ | 10px |  | 一条数据的数据项之间的间距 |
-| speedTime | Number | √ | 20 |  | 速率-时间，单位毫秒 |
-| speedDistance | String | √ | 2px |  | 速率-距离 |
-| itemStyle | Object | √ |  |  | 跑马灯控件的样式 |
-| itemStyle.normal | Object | √ |  |  | 跑马灯控件的样式 |
-| itemStyle.normal.fontSize | String | √ | 20px | 支持CSS3中font-size的参数值 | 跑马灯控件的文本大小 |
-| itemStyle.normal.color | String | √ | \#c1c1c1 | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 跑马灯控件的文本颜色 |
-| itemStyle.normal.background | String | √ | \#eff1f3 | 支持CSS3中background的所有参数值 | 跑马灯控件的背景样式 |
-| itemStyle.normal.paddingLeft | String | √ | 5px |  | 跑马灯控件的左内边距 |
+<table border="1" >
+    <tr>
+        <th width="15%">配置项</th>
+        <th width="45%">功能/描述</th>
+        <th>可选参数</th>
+    </tr>
+    <tr>
+        <td>type | String</td>
+        <td>控件类型——Marquee跑马灯，不可修改</td>
+        <td>Marquee</td>
+    </tr>
+    <tr>
+        <td>series | Array\(Object\)</td>
+        <td>跑马灯控件中的数据项 </td>
+        <td> <pre>
+            [
+                {
+                    'name': '人员密度',
+                    'value': 'personIdentity'
+                }
+            ]
+        </pre> </td>
+    </tr>
+    <tr>
+        <td>series\[0\].name | String</td>
+        <td>数据文本内容，可以重复 </td>
+        <td>'text'</td>
+    </tr>
+    <tr>
+        <td>series\[0\].value | String</td>
+        <td>数据唯一标识，不可重复 </td>
+        <td>'id'</td>
+    </tr>
+    <tr>
+        <td>categoryGap | String </td>
+        <td>数据条之间的间距 </td>
+        <td> 'px' or '%' </td>
+    </tr>
+    <tr>
+        <td>itemGap | Sting </td>
+        <td>一条数据的数据项之间的间距 </td>
+        <td> 'px' or '%' </td>
+    </tr>
+    <tr>
+        <td>speedTime | Number </td>
+        <td>时间，单位毫秒 </td>
+        <td> 20 </td>
+    </tr>
+    <tr>
+        <td>speedDistance | String </td>
+        <td>距离 </td>
+        <td> 'px' or '%' </td>
+    </tr>
+    <tr>
+        <td>itemStyle.normal | Object</td>
+        <td>跑马灯控件的样式 </td>
+        <td><pre>
+            
+            {
+                //文本颜色，支持CSS3中颜色的参数值
+                'fontSize': '20px',  
+                //文本大小，支持CSS3中font-size的参数值
+                'color': '#c1c1c1',  
+                //背景颜色，支持CSS3中颜色的参数值
+                'background': '#eff1f3',  
+                //内左边距，支持CSS3中距离的参数值
+                'paddingLeft': '5px'  
+            }
+
+        </pre></td>
+    </tr>
+
+</table>
 
 > 注：
 >
