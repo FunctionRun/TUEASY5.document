@@ -1,9 +1,14 @@
 # 时间轴\_TimeLine 
 
 ---
+![](/assets/Timeline01.png)
+![](/assets/Timeline03.png)
+![](/assets/Timeline04.png)
+![](/assets/Timeline05.png)
+![](/assets/Timeline06.png)
 
 > ## 开发模式
-
+![](/assets/Timeline02.png)
 ### 参数配置列表
 
 ```
