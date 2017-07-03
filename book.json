@@ -3,6 +3,7 @@
   "description": "图易5用户使用手册",
   "author": "AngelSamle",
   "language": "zh",
+    "plugins": ["local-video"],
   "styles": {
     "website": "styles/website.css"
   }
