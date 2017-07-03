@@ -11,7 +11,6 @@
   * [创建分析视图](create_dataset\创建分析视图.md)
   * [分析视图操作](create_dataset\分析视图相关操作.md)
   * [视图字段编辑](create_dataset\视图字段编辑.md)
-  * [视频教程](create_dataset\video.md)
 * [编辑可视主题](创建可视主题.md)
   * [添加图表](create_theme\添加图表.md)
   * [配置图表数据](create_theme\配置图表数据.md)
@@ -60,3 +59,4 @@
 * [归档](归档.md)
 * [复制](复制.md)
 * [删除](删除.md)
+* [视频教程](video.md)
