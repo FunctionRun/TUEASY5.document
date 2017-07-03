@@ -2,7 +2,7 @@
 ###创建可视化分析应用
 <video id="my-video" class="video-js" controls preload="auto" width="100%"
 poster="../assets/new-project-setting.png" data-setup='{"aspectRatio":"16:9"}'>
-  <source src="../assets/video/2创建可视化分析应用.mp4" type='video/mp4' >
+  <source src="../assets/video/1创建可视化分析应用.mp4" type='video/mp4' >
 </video>
 
 ###连接orcl数据库
