@@ -9,13 +9,13 @@
 
 ![](/assets/Radiobutton02.png)
 
-![](/assets/Radiobutton03.png)
-
 ![](/assets/Radiobutton04.png)
+
+![](/assets/Radiobutton05.png)
 注：初始化选中内容填写的是与显示内容相对应的标识字段。
 
 ## 开发模式
-
+![](/assets/Radiobutton03.png)
 ### 参数配置列表
 
 ```

@@ -2,8 +2,11 @@
 
 ---
 
-> ## 开发模式
+![](/assets/StaticTable01.png)
+![](/assets/StaticTable02.png)
 
+## 开发模式
+![](/assets/StaticTable03.png)
 ### 参数配置列表
 ```
 {

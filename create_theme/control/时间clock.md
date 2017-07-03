@@ -2,7 +2,13 @@
 
 ---
 
-> ## 开发模式
+## 编辑模式
+![](/assets/Clock01.png)
+![](/assets/Clock03.png)
+![](/assets/Clock04.png)
+![](/assets/Clock05.png)
+## 开发模式
+![](/assets/Clock02.png)
 
 ### 参数配置列表
 

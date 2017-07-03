@@ -1,8 +1,10 @@
 # 走马灯\_Marquee ![](/assets/Marquee.png)
 
 ---
+![](/assets/Marquee.png)
 
-> ## 开发模式
+
+## 开发模式
 
 ### 参数配置列表
 

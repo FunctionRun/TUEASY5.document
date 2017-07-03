@@ -1,9 +1,9 @@
 # 视频\_Video ![](/assets/Video.png)
 
 ---
-
-> ## 开发模式
-
+![](/assets/Video01.png)
+## 开发模式
+![](/assets/Video02.png)
 ### 参数配置列表
 
 ```

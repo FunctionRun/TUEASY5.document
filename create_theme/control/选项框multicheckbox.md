@@ -6,15 +6,14 @@
 
 用户可以通过下方编辑模式面板实现对多选项框的显示内容和样式的快速编辑。
 ![](/assets/MultiCheckBox01.png)
-
-![](/assets/MultiCheckBox03.png)
-
+![](/assets/MultiCheckBox02.png)
 ![](/assets/MultiCheckBox04.png)
+![](/assets/MultiCheckBox05.png)
 注：初始化选中内容填写的是与显示内容相对应的标识字段。
 
 
 ## 开发模式
-![](/assets/MultiCheckBox02.png)
+![](/assets/MultiCheckBox03.png)
 ### 参数配置列表
 
 ```
