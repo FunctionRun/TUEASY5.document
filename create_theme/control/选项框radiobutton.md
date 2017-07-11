@@ -2,12 +2,20 @@
 
 ---
 
-> ## 编辑模式
+## 编辑模式
 
-用户可以通过下方编辑模式面板实现对多选项框的显示内容和样式的快速编辑。![](/assets/RadioButtonUser.jpg)注：初始化选中内容填写的是与显示内容相对应的标识字段。
+用户可以通过下方编辑模式面板实现对多选项框的显示内容和样式的快速编辑。
+![](/assets/Radiobutton01.png)
 
-> ## 开发模式
+![](/assets/Radiobutton02.png)
 
+![](/assets/Radiobutton04.png)
+
+![](/assets/Radiobutton05.png)
+注：初始化选中内容填写的是与显示内容相对应的标识字段。
+
+## 开发模式
+![](/assets/Radiobutton03.png)
 ### 参数配置列表
 
 ```

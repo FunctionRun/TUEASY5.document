@@ -2,7 +2,11 @@
 
 ---
 
-> ## 开发模式
+![](/assets/PointerClock01.png)
+![](/assets/PointerClock02.png)
+![](/assets/PointerClock03.png)
+## 开发模式
+
 
 ### 参数配置列表
 

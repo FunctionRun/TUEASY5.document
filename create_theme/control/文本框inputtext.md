@@ -5,10 +5,15 @@
 
 > ## 编辑模式
 
-输入文本框共有两部分组成，标签部分和文本框部分。用户可以通过下方的用户编辑模式面板实现对输入文本框的标签和输入文本颜色、文本大小、边框样式的快速编辑。![](/assets/InputtextUser.jpg)
+输入文本框共有两部分组成，标签部分和文本框部分。用户可以通过下方的用户编辑模式面板实现对输入文本框的标签和输入文本颜色、文本大小、边框样式的快速编辑。
+
+![](/assets/InputText01.png)
+![](/assets/InputText02.png)
+![](/assets/InputText03.png)
 
 > ## 开发模式
 
+![](/assets/InputText04.png)
 
 ### 参数配置列表
 
@@ -183,9 +188,6 @@
 </tr>
 </table>
 
-> 注：
->
-> * style.normal、style.mouse、style.emphasis中的属性支持CSS3中的样式属性，命名采用驼峰命名方式，用户可按照规则添加其他文本框样式
 
 
 

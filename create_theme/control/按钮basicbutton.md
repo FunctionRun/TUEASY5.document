@@ -2,12 +2,15 @@
 
 ---
 
-> ## 编辑模式
+ ## 编辑模式
 
-用户可以通过下方的用户编辑模式面板实现对按钮样式的快速编辑。![](/assets/buttonUser.jpg)
+用户可以通过下方的用户编辑模式面板实现对按钮样式的快速编辑。
+![](/assets/buttonUser01.png)
+![](/assets/buttonUser03.png)
+![](/assets/buttonUser04.png)
 
-> ## 开发模式
-
+## 开发模式
+![](/assets/buttonUser02.png)
 ### 参数配置列表
 
 ```
